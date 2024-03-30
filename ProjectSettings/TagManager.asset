@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bridge
+  - Bullet
+  - ground
+  - ice
+  - snow pines
+  - trees
+  - dead trees
+  - random pines
+  - stonehenge
+  - gate
+  - cactus
+  - vegetation
+  - crystal
+  - big crystal
+  - little cave
+  - rock formation
+  - rounded wood pattern
+  - little lake
+  - wall ruins
+  - castle
+  - desert rocks
+  - warrior staue
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Assets
+  - Water
+  - UI
+  - Bridge
+  - Ice
+  - Trees
+  - Dead trees
+  - Snow pines
+  - random pines
+  - stonehenge
+  - gate
+  - cactus
+  - vegetation
+  - crystal
+  - little cave
+  - rock formation
+  - rounded wood pattern
+  - castle
+  - wall ruins
+  - desert rocks
+  - warrior statue
+  - little lake
+  - big crystal
+  - ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
