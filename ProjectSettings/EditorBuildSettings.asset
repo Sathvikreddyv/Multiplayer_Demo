@@ -23,11 +23,11 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/FPS.unity
     guid: 554f5dee0e8c8d14abe5be142631d5a4
-  - enabled: 0
-    path: Assets/Scenes/inventory scene.unity
-    guid: eceddaa684221fb429d7342f2096aa7d
   - enabled: 1
     path: Assets/Scenes/Room for 2.unity
+    guid: eceddaa684221fb429d7342f2096aa7d
+  - enabled: 1
+    path: Assets/Scenes/Room for 2.2.unity
     guid: 2b6f147df15c62c4a84b61ddc0082165
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: caff4843e67c5ed4bb21f1fffbfcc271, type: 2}

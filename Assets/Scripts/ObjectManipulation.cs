@@ -24,7 +24,10 @@ public class ObjectManipulation : MonoBehaviour
     #region asset rotation
     void Update()
     {
-        if(Input.GetMouseButtonDown(1)) {
+
+
+        if(Input.GetMouseButtonDown(1)) 
+        {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 

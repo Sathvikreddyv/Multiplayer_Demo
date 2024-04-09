@@ -5,8 +5,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Linq;
+using Photon.Pun;
 
-public class ObjectPlacement : MonoBehaviour
+public class ObjectPlacement : MonoBehaviourPun
 {
     [SerializeField]
     private GameObject assetPrefab = null;
@@ -71,7 +72,7 @@ public class ObjectPlacement : MonoBehaviour
                 Debug.Log("not found");
             }
 
-            placedObjects.Append<GameObject>(assetPrefab);
+           // placedObjects.Append<GameObject>(assetPrefab);
         }
     }
     #endregion
@@ -87,7 +88,8 @@ public class ObjectPlacement : MonoBehaviour
             Debug.Log("HIT");
             if (Physics.Raycast(ray,out hit, layermask))
             {
-                postion = new Vector3(hit.point.x, hit.point.y + assetPrefab.transform.position.y, hit.point.z);
+                //+assetPrefab.transform.position.y
+                postion = new Vector3(hit.point.x, hit.point.y, hit.point.z);
 
                 for (int i = 0; i < 20; i++)
                 {
@@ -100,7 +102,7 @@ public class ObjectPlacement : MonoBehaviour
                             break;
                         }
 
-                        Instantiate(assetPrefab, postion, Quaternion.identity);
+                        PhotonNetwork.Instantiate(assetPrefab.name, postion, Quaternion.identity);
                         assetPrefab = null;
                         button[i].GetComponent<assetCounter>().Counter -= 1;
                         Debug.Log("TEXT" + button[i].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text);
