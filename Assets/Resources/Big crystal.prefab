@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8198271522882438371}
   - component: {fileID: 1918184382042846666}
   - component: {fileID: 7761269846588442613}
+  - component: {fileID: -2348088031429858523}
   m_Layer: 25
   m_Name: Big crystal
   m_TagString: big crystal
@@ -80,7 +81,7 @@ MonoBehaviour:
   m_SynchronizePosition: 1
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
-  m_UseLocal: 1
+  m_UseLocal: 0
 --- !u!114 &7761269846588442613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,14 +97,29 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  Synchronization: 3
+  Synchronization: 1
   OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
+  - {fileID: 8198271522882438371}
   - {fileID: 1918184382042846666}
+  - {fileID: 8198271524613712897}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &-2348088031429858523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8198271522882438364}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c90bf2d52bae30b4f861ef0d70d8eaf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectManipulate: {fileID: 8198271522882438371}
 --- !u!1001 &8198271522899963184
 PrefabInstance:
   m_ObjectHideFlags: 0

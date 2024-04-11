@@ -4,8 +4,9 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Photon.Pun;
 
-public class Remover : MonoBehaviour
+public class Remover : MonoBehaviourPun
 {
 
     public GameObject selectedAsset;
@@ -45,7 +46,7 @@ public class Remover : MonoBehaviour
             {
                 if(selectedAsset.tag == objectPlacement.button[i].tag)
                 {
-                    Destroy(selectedAsset);
+                    PhotonNetwork.Destroy(selectedAsset);
                     Debug.Log("removed" + selectedAsset.name);
                     objectPlacement.button[i].GetComponent<assetCounter>().Counter++;
                     objectPlacement.button[i].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = objectPlacement.button[i].GetComponent<assetCounter>().Counter.ToString();

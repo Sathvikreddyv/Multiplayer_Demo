@@ -3209,7 +3209,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fdcd28759df0b84cbf90a580560bf0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HiglightBound: {fileID: 1085487913}
+  HiglightBound: {fileID: 9158209765172678225}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 67108800
 --- !u!4 &407516732
 Transform:
   m_ObjectHideFlags: 0
@@ -6882,11 +6885,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1085094769}
   m_CullTransparentMesh: 1
---- !u!1 &1085487913 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9158209764089574777, guid: e3bbd53872763ab43bba639431e250ce, type: 3}
-  m_PrefabInstance: {fileID: 9158209765172678224}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1134725692
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14630,7 +14628,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -2348088031429858523, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
 --- !u!64 &8341875994833115656
 MeshCollider:
@@ -15376,6 +15375,10 @@ PrefabInstance:
       propertyPath: m_SynchronizeScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6266661649338409684, guid: e3bbd53872763ab43bba639431e250ce, type: 3}
+      propertyPath: sceneViewId
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 9158209764089574777, guid: e3bbd53872763ab43bba639431e250ce, type: 3}
       propertyPath: m_Name
       value: Highlight bound
@@ -15426,3 +15429,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3bbd53872763ab43bba639431e250ce, type: 3}
+--- !u!1 &9158209765172678225 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9158209764089574777, guid: e3bbd53872763ab43bba639431e250ce, type: 3}
+  m_PrefabInstance: {fileID: 9158209765172678224}
+  m_PrefabAsset: {fileID: 0}

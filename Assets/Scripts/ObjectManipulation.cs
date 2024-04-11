@@ -1,17 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
+using Unity.Mathematics;
 
-public class ObjectManipulation : MonoBehaviour
+public class ObjectManipulation : MonoBehaviourPunCallbacks, IPunObservable
 {
     private Vector3 offset;
     private float distanceToCamera;
     private float yPosition;
     private bool isDragged;
-    private bool isRotated;
     private bool isPressed = false;
     public float rotationRate;
-    private float yRotation;
     public LayerMask layerMask;
     private GameObject toRotate;
 
@@ -33,8 +33,15 @@ public class ObjectManipulation : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
             {
-                toRotate = hit.collider.gameObject;
-                isPressed= true;
+                if (photonView.IsMine || photonView.Owner == null)
+                {
+                    toRotate = hit.collider.gameObject;
+                    isPressed = true;
+                }
+                else
+                {
+                    photonView.RequestOwnership();
+                }
             }
         }
 
@@ -60,7 +67,7 @@ public class ObjectManipulation : MonoBehaviour
 
     void OnMouseDrag()
     {
-        if (isDragged)
+        if (isDragged && photonView.IsMine)
         {
             Vector3 newPosition = new Vector3(Input.mousePosition.x, Input.mousePosition.y, distanceToCamera);
             transform.position = Camera.main.ScreenToWorldPoint(newPosition) + offset;
@@ -73,4 +80,26 @@ public class ObjectManipulation : MonoBehaviour
         transform.position = new Vector3(transform.position.x, yPosition, transform.position.z);
     }
     #endregion
+
+    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    {
+        if (stream.IsWriting)
+        {
+            // This client owns this object: send the others our data
+            stream.SendNext(transform.position);
+        }
+        else
+        {
+            // Network player, receive data
+            transform.position = (Vector3)stream.ReceiveNext();
+        }
+    }
+
+    public void OnOwnershipRequest(PhotonView targetView, Photon.Realtime.Player requestingPlayer)
+    {
+        if (targetView != photonView) return;
+
+        // You can add more logic here to decide if you want to transfer ownership
+        photonView.TransferOwnership(requestingPlayer);
+    }
 }
