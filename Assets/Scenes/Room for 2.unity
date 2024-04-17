@@ -3050,18 +3050,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 395025444}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1200812, y: 2.1150506, z: 1.6015829}
+  m_LocalScale: {x: 0.35002536, y: 0.6609533, z: 0.50049466}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 206429688}
   m_Father: {fileID: 685992844}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 847, y: -389}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -41.094, y: -110}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &395025446
@@ -3209,7 +3209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fdcd28759df0b84cbf90a580560bf0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HiglightBound: {fileID: 9158209765172678225}
+  HighlightAsset: {fileID: 9158209765172678225}
   layerMask:
     serializedVersion: 2
     m_Bits: 67108800
@@ -3462,7 +3462,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &418454845
@@ -5229,7 +5229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -6833,19 +6833,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1085094769}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1339585, y: 6.0517, z: 1}
+  m_LocalScale: {x: 0.041862033, y: 1.8911563, z: 0.3125}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 418454844}
   m_Father: {fileID: 685992844}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 853, y: 527}
-  m_SizeDelta: {x: 1000, y: 100}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -41.093735, y: 0}
+  m_SizeDelta: {x: 999, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1085094771
 MonoBehaviour:
@@ -15367,6 +15367,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7444202350903340796, guid: e3bbd53872763ab43bba639431e250ce, type: 3}
+      propertyPath: sceneViewId
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: -7444202350903340796, guid: e3bbd53872763ab43bba639431e250ce, type: 3}
+      propertyPath: ObservedComponents.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -2232920635100478122, guid: e3bbd53872763ab43bba639431e250ce, type: 3}
       propertyPath: sceneViewId
       value: 21
@@ -15382,6 +15390,10 @@ PrefabInstance:
     - target: {fileID: 9158209764089574777, guid: e3bbd53872763ab43bba639431e250ce, type: 3}
       propertyPath: m_Name
       value: Highlight bound
+      objectReference: {fileID: 0}
+    - target: {fileID: 9158209764089574777, guid: e3bbd53872763ab43bba639431e250ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9158209764089574778, guid: e3bbd53872763ab43bba639431e250ce, type: 3}
       propertyPath: m_RootOrder
