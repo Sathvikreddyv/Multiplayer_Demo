@@ -28,7 +28,7 @@ public class HIghlightManager : MonoBehaviourPun
 
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
         {
-            HiglightBound.SetActive(true);
+            //HiglightBound.SetActive(true);
             float x = (hit.collider.bounds.size.x) / 4;
             float y = (hit.collider.bounds.size.y) / 4;
             float z = (hit.collider.bounds.size.z) / 4;
@@ -39,8 +39,27 @@ public class HIghlightManager : MonoBehaviourPun
         } 
         else
         {
-            HiglightBound.SetActive(false);
+            HiglightBound.transform.position = new Vector3(0, -60, 0);
+            //HiglightBound.SetActive(false);
         }
 
     }
+
+    //public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    //{
+    //    if (stream.IsWriting)
+    //    {
+    //        // Send flag indicating if the highlight object is active
+    //        stream.SendNext(HiglightBound.activeSelf);
+    //    }
+    //    else
+    //    {
+    //        // Receive flag and update highlight object's visibility
+    //        bool isActive = (bool)stream.ReceiveNext();
+    //        if (HiglightBound != null)
+    //        {
+    //            HiglightBound.SetActive(isActive);
+    //        }
+    //    }
+    //}
 }
