@@ -18,9 +18,9 @@ public class ObjectManipulation : MonoBehaviourPunCallbacks, IPunObservable
     public LayerMask layerMask;
     private GameObject toRotate;
 
-    public InputActionReference LeftTriggerButtonAction;
-    public InputActionReference RightTriggerButtonAction;
-    public XRRayInteractor rayInteractor;
+    //public InputActionReference LeftTriggerButtonAction;
+    //public InputActionReference RightTriggerButtonAction;
+    //public XRRayInteractor rayInteractor;
 
 
     void Start()
