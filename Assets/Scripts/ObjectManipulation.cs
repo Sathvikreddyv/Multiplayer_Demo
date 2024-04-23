@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using Unity.Mathematics;
+using UnityEngine.XR;
+using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.InputSystem;
 
 public class ObjectManipulation : MonoBehaviourPunCallbacks, IPunObservable
 {
@@ -15,6 +18,10 @@ public class ObjectManipulation : MonoBehaviourPunCallbacks, IPunObservable
     public LayerMask layerMask;
     private GameObject toRotate;
 
+    public InputActionReference LeftTriggerButtonAction;
+    public InputActionReference RightTriggerButtonAction;
+    public XRRayInteractor rayInteractor;
+
 
     void Start()
     {
@@ -24,9 +31,41 @@ public class ObjectManipulation : MonoBehaviourPunCallbacks, IPunObservable
     #region asset rotation
     void Update()
     {
+        //XR
+        #region handling rotation and ray interaction through XR input(trigger Left/Right)
+        if (LeftTriggerButtonAction != null && LeftTriggerButtonAction.action != null && LeftTriggerButtonAction.action.triggered)
+        {
+            Ray ray = new Ray(rayInteractor.transform.position, rayInteractor.transform.forward);
+            RaycastHit hit;
 
+            if (Physics.Raycast(ray, out hit, layerMask))
+            {
+                if (photonView.IsMine || photonView.Owner == null)
+                {
+                    toRotate = hit.collider.gameObject;
+                    isPressed = true;
+                }
+                else
+                {
+                    photonView.RequestOwnership();
+                }
+            }
+        }
 
-        if(Input.GetMouseButtonDown(1)) 
+        if (isPressed && RightTriggerButtonAction.action.triggered)
+        {
+            toRotate.transform.rotation = Quaternion.Euler(0, 20, 0);
+        }
+
+        if (Input.GetMouseButtonUp(1))
+        {
+            isPressed = false;
+        }
+        #endregion
+
+        //Desktop
+        #region handling rotation and ray interaction through mouse input
+        if (Input.GetMouseButtonDown(1)) 
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
@@ -54,6 +93,7 @@ public class ObjectManipulation : MonoBehaviourPunCallbacks, IPunObservable
         {
             isPressed= false;
         }
+        #endregion
     }
     #endregion
 

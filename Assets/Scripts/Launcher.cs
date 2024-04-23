@@ -51,6 +51,7 @@ public class Launcher : MonoBehaviourPunCallbacks
     #region Public Methods
     public void Connect()
     {
+        Debug.Log("Clicked");
         progressLabel.SetActive(true);
         controlPanel.SetActive(false);
         if (PhotonNetwork.IsConnected)

@@ -10,6 +10,7 @@ public class CameraManager : MonoBehaviour
     public GameObject flyCam;
     public GameObject XRcamera;
 
+
     void Start()
     {
         
@@ -19,9 +20,9 @@ public class CameraManager : MonoBehaviour
     void Update()
     {
 
-        if (!string.IsNullOrEmpty(XRSettings.loadedDeviceName))
+        if (XRSettings.isDeviceActive)
         {
-            godView.SetActive(false);
+            //godView.SetActive(false);
             flyCam.SetActive(false);
             XRcamera.SetActive(true);
             Debug.Log("Running on VR device: " + XRSettings.loadedDeviceName);
@@ -37,7 +38,7 @@ public class CameraManager : MonoBehaviour
 
             if (Input.GetKeyDown("2"))
             {
-                godView.SetActive(false);
+                //godView.SetActive(false);
                 flyCam.SetActive(true);
             }
         }

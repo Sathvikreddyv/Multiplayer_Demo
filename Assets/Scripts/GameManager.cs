@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Photon.Pun;
 using Photon.Realtime;
+using UnityEngine.XR;
 
 namespace Com.MyCompany.Mygame
 {   
@@ -12,6 +13,8 @@ namespace Com.MyCompany.Mygame
     {
         [Tooltip("The prefab to use for representing the player")]
         public GameObject playerPrefab;
+        public GameObject XRPlayer;
+        public GameObject DesktopPlayer;
 
         #region Private Methods
         void LoadArena()
@@ -71,6 +74,15 @@ namespace Com.MyCompany.Mygame
         // Start is called before the first frame update
         void Start()
         {
+            if(XRSettings.isDeviceActive)
+            {
+                playerPrefab = XRPlayer;
+            }
+            else
+            {
+                playerPrefab = DesktopPlayer;
+            }
+
             if (playerPrefab == null)
             {
                 Debug.LogError("<Color=Red><a>Missing</a></Color> playerPrefab Reference. Please set it up in GameObject 'Game Manager'", this);
