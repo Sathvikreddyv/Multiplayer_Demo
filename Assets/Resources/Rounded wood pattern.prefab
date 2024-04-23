@@ -76,6 +76,9 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 524288
+  LeftTriggerButtonAction: {fileID: 0}
+  RightTriggerButtonAction: {fileID: 0}
+  rayInteractor: {fileID: 0}
 --- !u!114 &8787503159810687148
 MonoBehaviour:
   m_ObjectHideFlags: 0

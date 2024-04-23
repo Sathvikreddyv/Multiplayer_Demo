@@ -1900,6 +1900,9 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 262144
+  LeftTriggerButtonAction: {fileID: 0}
+  RightTriggerButtonAction: {fileID: 0}
+  rayInteractor: {fileID: 0}
 --- !u!114 &98021305422224621
 MonoBehaviour:
   m_ObjectHideFlags: 0
