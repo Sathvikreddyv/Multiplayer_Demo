@@ -2412,9 +2412,9 @@ GameObject:
   - component: {fileID: 2192786732179266974}
   - component: {fileID: 2851631354163815454}
   - component: {fileID: 5436168120823616007}
-  - component: {fileID: 3165732419718516139}
   - component: {fileID: 3008729110115509946}
   - component: {fileID: 1654381568}
+  - component: {fileID: 1085183801}
   m_Layer: 5
   m_Name: Remove
   m_TagString: Untagged
@@ -2525,7 +2525,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3165732419718516139}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Remover, Assembly-CSharp
         m_MethodName: Remove
         m_Mode: 1
@@ -2537,23 +2537,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &3165732419718516139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1075165792974647955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58ed7602c80992d43a83a8dc4f4823a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selectedAsset: {fileID: 0}
-  objectPlacement: {fileID: 0}
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 67108800
 --- !u!223 &3008729110115509946
 Canvas:
   m_ObjectHideFlags: 0
@@ -2594,6 +2577,25 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
+--- !u!114 &1085183801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075165792974647955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 932bf5681c426664bb92052014a2f84b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedAsset: {fileID: 0}
+  objectPlacement: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 67108800
+  PrimaryButtonAction: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rayInteractor: {fileID: 8654195735996821717}
 --- !u!1 &1192474395818183891
 GameObject:
   m_ObjectHideFlags: 0
@@ -11848,7 +11850,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 3284005821859210308}
-  m_MoveSpeed: 1
+  m_MoveSpeed: 8
   m_EnableStrafe: 1
   m_EnableFly: 0
   m_UseGravity: 1
