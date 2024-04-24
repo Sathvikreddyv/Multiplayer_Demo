@@ -304,7 +304,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   godView: {fileID: 1311014667}
   flyCam: {fileID: 1208906548}
-  XRcamera: {fileID: 0}
+  XRcamera: {fileID: 501251473873390509}
 --- !u!1 &51751087
 GameObject:
   m_ObjectHideFlags: 0
