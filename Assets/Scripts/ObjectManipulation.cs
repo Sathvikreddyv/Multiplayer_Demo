@@ -18,9 +18,9 @@ public class ObjectManipulation : MonoBehaviourPunCallbacks, IPunObservable
     public LayerMask layerMask;
     private GameObject toRotate;
 
-    //public InputActionReference LeftTriggerButtonAction;
-    //public InputActionReference RightTriggerButtonAction;
-    //public XRRayInteractor rayInteractor;
+    public InputActionReference LeftTriggerButtonAction;
+    public InputActionReference RightTriggerButtonAction;
+    public XRRayInteractor rayInteractor;
 
 
     void Start()
@@ -33,34 +33,34 @@ public class ObjectManipulation : MonoBehaviourPunCallbacks, IPunObservable
     {
         //XR
         #region handling rotation and ray interaction through XR input(trigger Left/Right)
-        //if (LeftTriggerButtonAction != null && LeftTriggerButtonAction.action != null && LeftTriggerButtonAction.action.triggered)
-        //{
-        //    Ray ray = new Ray(rayInteractor.transform.position, rayInteractor.transform.forward);
-        //    RaycastHit hit;
+        if (LeftTriggerButtonAction != null && LeftTriggerButtonAction.action != null && LeftTriggerButtonAction.action.triggered)
+        {
+            Ray ray = new Ray(rayInteractor.transform.position, rayInteractor.transform.forward);
+            RaycastHit hit;
 
-        //    if (Physics.Raycast(ray, out hit, layerMask))
-        //    {
-        //        if (photonView.IsMine || photonView.Owner == null)
-        //        {
-        //            toRotate = hit.collider.gameObject;
-        //            isPressed = true;
-        //        }
-        //        else
-        //        {
-        //            photonView.RequestOwnership();
-        //        }
-        //    }
-        //}
+            if (Physics.Raycast(ray, out hit, layerMask))
+            {
+                if (photonView.IsMine || photonView.Owner == null)
+                {
+                    toRotate = hit.collider.gameObject;
+                    isPressed = true;
+                }
+                else
+                {
+                    photonView.RequestOwnership();
+                }
+            }
+        }
 
-        //if (isPressed && RightTriggerButtonAction.action.triggered)
-        //{
-        //    toRotate.transform.rotation = Quaternion.Euler(0, 20, 0);
-        //}
+        if (isPressed && RightTriggerButtonAction.action.triggered)
+        {
+            toRotate.transform.rotation = Quaternion.Euler(0, 20, 0);
+        }
 
-        //if (Input.GetMouseButtonUp(1))
-        //{
-        //    isPressed = false;
-        //}
+        if (!RightTriggerButtonAction.action.triggered)
+        {
+            isPressed = false;
+        }
         #endregion
 
         //Desktop
