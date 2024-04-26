@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
+using UnityEngine.XR;
+using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.InputSystem;
 
 public class HIghlightManager : MonoBehaviourPun
 {
@@ -9,6 +12,10 @@ public class HIghlightManager : MonoBehaviourPun
     public  GameObject HighlightAsset;
     public LayerMask layerMask;
     private bool CheckInstantiate = true;
+
+    //VR ray
+    public XRRayInteractor rayInteractor;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,12 +25,22 @@ public class HIghlightManager : MonoBehaviourPun
     // Update is called once per frame
     void Update()
     {
+        Ray ray;
         if(CheckInstantiate)
         {
             HiglightBound = PhotonNetwork.Instantiate(HighlightAsset.name, HighlightAsset.transform.position, Quaternion.identity);
             CheckInstantiate = false;
         }
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+        if (XRSettings.isDeviceActive)
+        {
+            ray = new Ray(rayInteractor.transform.position, rayInteractor.transform.forward);
+        }
+        else
+        {
+           ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        }
+
         RaycastHit hit;
 
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
