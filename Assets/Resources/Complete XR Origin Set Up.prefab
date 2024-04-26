@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3233359539122812691}
   - component: {fileID: 485468966960366711}
   - component: {fileID: 6356412298229585652}
+  - component: {fileID: 1437992735}
   m_Layer: 5
   m_Name: big crystal
   m_TagString: big crystal
@@ -179,6 +180,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &1437992735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103514923975155631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &200288840094184078
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,6 +349,7 @@ GameObject:
   - component: {fileID: 4631737836280566168}
   - component: {fileID: 7570043032064698066}
   - component: {fileID: 6734438723427415025}
+  - component: {fileID: 697644626}
   m_Layer: 5
   m_Name: Desert rocks
   m_TagString: desert rocks
@@ -493,6 +514,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &697644626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233345028592739370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &415027032996018186
 GameObject:
   m_ObjectHideFlags: 0
@@ -1283,6 +1323,7 @@ GameObject:
   - component: {fileID: 1414039868669717058}
   - component: {fileID: 1052338365408884041}
   - component: {fileID: 1957191953314619627}
+  - component: {fileID: 276147612}
   m_Layer: 5
   m_Name: Vegetation
   m_TagString: vegetation
@@ -1447,6 +1488,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &276147612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568604818868040489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &667190507271449007
 GameObject:
   m_ObjectHideFlags: 0
@@ -1545,6 +1605,7 @@ GameObject:
   - component: {fileID: 1817940278969888529}
   - component: {fileID: 8694079888751338639}
   - component: {fileID: 3777146013735049394}
+  - component: {fileID: 501251473873390512}
   m_Layer: 5
   m_Name: Ice
   m_TagString: ice
@@ -1709,6 +1770,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &501251473873390512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739634589730310045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &946183554138185543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1857,6 +1937,7 @@ GameObject:
   - component: {fileID: 1773026536814397818}
   - component: {fileID: 3751392676942843174}
   - component: {fileID: 5909870295583318683}
+  - component: {fileID: 1448373162}
   m_Layer: 5
   m_Name: Scroll Panel
   m_TagString: Untagged
@@ -1984,6 +2065,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &1448373162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951062132641485996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &976114211550732640
 GameObject:
   m_ObjectHideFlags: 0
@@ -2116,6 +2216,7 @@ GameObject:
   - component: {fileID: 922434093337453581}
   - component: {fileID: 2615872596747066011}
   - component: {fileID: 1100568623865133692}
+  - component: {fileID: 621785061}
   m_Layer: 5
   m_Name: Dead Trees
   m_TagString: dead trees
@@ -2280,6 +2381,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &621785061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985918454513694200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &1075165792974647955
 GameObject:
   m_ObjectHideFlags: 0
@@ -2292,9 +2412,9 @@ GameObject:
   - component: {fileID: 2192786732179266974}
   - component: {fileID: 2851631354163815454}
   - component: {fileID: 5436168120823616007}
-  - component: {fileID: 3165732419718516139}
   - component: {fileID: 3008729110115509946}
-  - component: {fileID: 1584026063437787022}
+  - component: {fileID: 1654381568}
+  - component: {fileID: 1085183801}
   m_Layer: 5
   m_Name: Remove
   m_TagString: Untagged
@@ -2405,7 +2525,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3165732419718516139}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Remover, Assembly-CSharp
         m_MethodName: Remove
         m_Mode: 1
@@ -2417,23 +2537,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &3165732419718516139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1075165792974647955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58ed7602c80992d43a83a8dc4f4823a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selectedAsset: {fileID: 0}
-  objectPlacement: {fileID: 0}
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 67108800
 --- !u!223 &3008729110115509946
 Canvas:
   m_ObjectHideFlags: 0
@@ -2455,7 +2558,7 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &1584026063437787022
+--- !u!114 &1654381568
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2464,16 +2567,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 1075165792974647955}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afe3cda3e244f60419474164d6ba3b0b, type: 3}
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 0
   m_CheckFor2DOcclusion: 0
   m_CheckFor3DOcclusion: 0
-  m_MaxDistance: 1000
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
+--- !u!114 &1085183801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075165792974647955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 932bf5681c426664bb92052014a2f84b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedAsset: {fileID: 0}
+  objectPlacement: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 67108800
+  PrimaryButtonAction: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rayInteractor: {fileID: 8654195735996821717}
 --- !u!1 &1192474395818183891
 GameObject:
   m_ObjectHideFlags: 0
@@ -2825,6 +2947,7 @@ GameObject:
   - component: {fileID: 3312226018202712992}
   - component: {fileID: 8108461474031835243}
   - component: {fileID: 2043000664069853207}
+  - component: {fileID: 249834001}
   m_Layer: 5
   m_Name: Crystal
   m_TagString: crystal
@@ -2989,6 +3112,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &249834001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891525203017928018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &1954935957404869374
 GameObject:
   m_ObjectHideFlags: 0
@@ -3087,6 +3229,7 @@ GameObject:
   - component: {fileID: 3975313344932060161}
   - component: {fileID: 7914865584693340404}
   - component: {fileID: 7704012226420458629}
+  - component: {fileID: 501251473873390513}
   m_Layer: 5
   m_Name: Bridge
   m_TagString: Bridge
@@ -3251,6 +3394,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &501251473873390513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042679589045299155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &2100508360326375706
 GameObject:
   m_ObjectHideFlags: 0
@@ -3866,7 +4028,7 @@ GameObject:
   - component: {fileID: 3113180260929235213}
   - component: {fileID: 7947611615955276229}
   - component: {fileID: 509231300625932101}
-  - component: {fileID: 5520772063512792798}
+  - component: {fileID: 1448373163}
   m_Layer: 5
   m_Name: Scroll
   m_TagString: Untagged
@@ -3997,7 +4159,7 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &5520772063512792798
+--- !u!114 &1448373163
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4006,16 +4168,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2558425678106049007}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afe3cda3e244f60419474164d6ba3b0b, type: 3}
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 0
   m_CheckFor2DOcclusion: 0
   m_CheckFor3DOcclusion: 0
-  m_MaxDistance: 1000
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &2568704741353624375
 GameObject:
   m_ObjectHideFlags: 0
@@ -4840,6 +5002,7 @@ GameObject:
   - component: {fileID: 5342491856640423634}
   - component: {fileID: 4747933912593591358}
   - component: {fileID: 947731205101088082}
+  - component: {fileID: 1264478023}
   m_Layer: 5
   m_Name: Random pines
   m_TagString: random pines
@@ -5004,6 +5167,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &1264478023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2946577456995311110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &2991272783688051704
 GameObject:
   m_ObjectHideFlags: 0
@@ -5225,6 +5407,7 @@ GameObject:
   - component: {fileID: 5483895382568714992}
   - component: {fileID: 6033992330755219048}
   - component: {fileID: 3870213644212173001}
+  - component: {fileID: 1007310503}
   m_Layer: 5
   m_Name: Cactus
   m_TagString: cactus
@@ -5389,6 +5572,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &1007310503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3024935312309425361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &3082413378435343081
 GameObject:
   m_ObjectHideFlags: 0
@@ -5622,6 +5824,7 @@ GameObject:
   - component: {fileID: 8436871022129284056}
   - component: {fileID: 6982662933675148996}
   - component: {fileID: 1764260949554195048}
+  - component: {fileID: 281139656}
   m_Layer: 5
   m_Name: Rock formation
   m_TagString: rock formation
@@ -5786,6 +5989,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &281139656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3270102771051661597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &3284005820715889069
 GameObject:
   m_ObjectHideFlags: 0
@@ -6297,6 +6519,7 @@ GameObject:
   - component: {fileID: 1624316462114045977}
   - component: {fileID: 196796325070056897}
   - component: {fileID: 5473981212538969542}
+  - component: {fileID: 1507930310}
   m_Layer: 5
   m_Name: Gate
   m_TagString: gate
@@ -6461,6 +6684,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &1507930310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3652600667554355633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &3689052153775308505
 GameObject:
   m_ObjectHideFlags: 0
@@ -6476,6 +6718,7 @@ GameObject:
   - component: {fileID: 8036833647857754299}
   - component: {fileID: 3140600890922461700}
   - component: {fileID: 5735927193255299092}
+  - component: {fileID: 1996111177}
   m_Layer: 5
   m_Name: stonehenge
   m_TagString: stonehenge
@@ -6640,6 +6883,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &1996111177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3689052153775308505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &4025912272374554683
 GameObject:
   m_ObjectHideFlags: 0
@@ -6925,6 +7187,7 @@ GameObject:
   - component: {fileID: 614747730059733467}
   - component: {fileID: 6781675748520836990}
   - component: {fileID: 6636588759088030457}
+  - component: {fileID: 1185719935}
   m_Layer: 5
   m_Name: Castle
   m_TagString: castle
@@ -7089,6 +7352,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &1185719935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4606491337656398736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &4656433235512199378
 GameObject:
   m_ObjectHideFlags: 0
@@ -8737,6 +9019,7 @@ GameObject:
   - component: {fileID: 6117940220637435507}
   - component: {fileID: 1264923869702180682}
   - component: {fileID: 3412202118884413673}
+  - component: {fileID: 863833734}
   m_Layer: 5
   m_Name: Rounded wood pattern
   m_TagString: rounded wood pattern
@@ -8901,6 +9184,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &863833734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5875779027349943479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &6257344371207940841
 GameObject:
   m_ObjectHideFlags: 0
@@ -10426,6 +10728,7 @@ GameObject:
   - component: {fileID: 713680502512681502}
   - component: {fileID: 7904702684852108707}
   - component: {fileID: 3781000194081902535}
+  - component: {fileID: 1448373164}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -10492,6 +10795,25 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1448373164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7262430443299853766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &7282888955333863805
 GameObject:
   m_ObjectHideFlags: 0
@@ -10749,6 +11071,7 @@ GameObject:
   - component: {fileID: 1120823411372494572}
   - component: {fileID: 6989685929478784740}
   - component: {fileID: 503126084778074975}
+  - component: {fileID: 2064011221}
   m_Layer: 5
   m_Name: warrior statue
   m_TagString: warrior staue
@@ -10913,6 +11236,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &2064011221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7441053804039966344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &7477174119956966257
 GameObject:
   m_ObjectHideFlags: 0
@@ -11084,7 +11426,7 @@ GameObject:
   - component: {fileID: 1814735348672214513}
   - component: {fileID: 2066864883508005145}
   - component: {fileID: 5519098626537467563}
-  - component: {fileID: 8073956681934674506}
+  - component: {fileID: 239874892}
   m_Layer: 5
   m_Name: inventory XR
   m_TagString: Untagged
@@ -11100,9 +11442,9 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7734588493453653502}
   m_LocalRotation: {x: 0.045128845, y: 0.039650723, z: -0.00060638506, w: 0.9981938}
-  m_LocalPosition: {x: 0, y: 0, z: 6.3}
-  m_LocalScale: {x: 0.030531885, y: 0.030531885, z: 0.030531885}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0, y: 0, z: 6.2}
+  m_LocalScale: {x: 0.0152671635, y: 0.0152671635, z: 0.0152671635}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 713680502512681502}
   - {fileID: 1684885950361616591}
@@ -11111,7 +11453,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 5.172, y: 4.556, z: 0.136}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 5.1, y: 2.3}
+  m_AnchoredPosition: {x: 2.5, y: 2.5}
   m_SizeDelta: {x: 100, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &1814735348672214513
@@ -11124,7 +11466,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 8929522187938742181}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -11175,7 +11517,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &8073956681934674506
+--- !u!114 &239874892
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11184,16 +11526,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7734588493453653502}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afe3cda3e244f60419474164d6ba3b0b, type: 3}
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 0
   m_CheckFor2DOcclusion: 0
   m_CheckFor3DOcclusion: 0
-  m_MaxDistance: 1000
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &7761144317701980006
 GameObject:
   m_ObjectHideFlags: 0
@@ -11362,7 +11704,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7798949829179270911}
   m_LocalRotation: {x: -0, y: 0.17850773, z: -0, w: 0.9839385}
-  m_LocalPosition: {x: 5, y: -4, z: -14}
+  m_LocalPosition: {x: 5, y: -16.5, z: -14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11508,7 +11850,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 3284005821859210308}
-  m_MoveSpeed: 1
+  m_MoveSpeed: 8
   m_EnableStrafe: 1
   m_EnableFly: 0
   m_UseGravity: 1
@@ -11618,6 +11960,7 @@ GameObject:
   - component: {fileID: 6773748500104598205}
   - component: {fileID: 6040269656700682566}
   - component: {fileID: 6080786073344241340}
+  - component: {fileID: 2062223734}
   m_Layer: 5
   m_Name: wall ruins
   m_TagString: wall ruins
@@ -11782,6 +12125,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &2062223734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8030966031586383969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &8231161615958120700
 GameObject:
   m_ObjectHideFlags: 0
@@ -12048,6 +12410,7 @@ GameObject:
   - component: {fileID: 3540423694504490507}
   - component: {fileID: 1729922676258488257}
   - component: {fileID: 1054079919260079979}
+  - component: {fileID: 501251473873390511}
   m_Layer: 5
   m_Name: Snow pines
   m_TagString: snow pines
@@ -12212,6 +12575,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &501251473873390511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8302161964092327195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &8368523558631475571
 GameObject:
   m_ObjectHideFlags: 0
@@ -12310,6 +12692,7 @@ GameObject:
   - component: {fileID: 2441554199401398851}
   - component: {fileID: 6602577493910540364}
   - component: {fileID: 2193534472668236652}
+  - component: {fileID: 843305503}
   m_Layer: 5
   m_Name: Little cave
   m_TagString: little cave
@@ -12474,6 +12857,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &843305503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8451316813382154826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &8542499482528494633
 GameObject:
   m_ObjectHideFlags: 0
@@ -12565,6 +12967,7 @@ GameObject:
   - component: {fileID: 7876203972580120977}
   - component: {fileID: 7333597347791465197}
   - component: {fileID: 5348787186708138332}
+  - component: {fileID: 501251473873390510}
   m_Layer: 5
   m_Name: Trees
   m_TagString: trees
@@ -12729,6 +13132,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &501251473873390510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8554539436980783815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &8581145173766355479
 GameObject:
   m_ObjectHideFlags: 0
@@ -12744,6 +13166,7 @@ GameObject:
   - component: {fileID: 1715001842775956697}
   - component: {fileID: 3708219071946084667}
   - component: {fileID: 2654879544434027895}
+  - component: {fileID: 861575449}
   m_Layer: 5
   m_Name: Little lake
   m_TagString: little lake
@@ -12908,6 +13331,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &861575449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8581145173766355479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &8588214077467075153
 GameObject:
   m_ObjectHideFlags: 0
