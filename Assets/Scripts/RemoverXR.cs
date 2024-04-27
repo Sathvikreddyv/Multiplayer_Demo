@@ -7,7 +7,7 @@ using UnityEngine.XR;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.InputSystem;
 
-public class RemoverXR : MonoBehaviour
+public class RemoverXR : MonoBehaviourPunCallbacks, IPunObservable
 {
     public GameObject selectedAsset;
     public ObjectPlacement objectPlacement;
@@ -53,6 +53,29 @@ public class RemoverXR : MonoBehaviour
                     objectPlacement.button[i].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = objectPlacement.button[i].GetComponent<assetCounter>().Counter.ToString();
                 }
             }
+        }
+    }
+
+    public void RotateObject()
+    {
+        Debug.Log(selectedAsset.name);
+        if (selectedAsset.tag != "ground")
+        {
+            selectedAsset.transform.rotation = Quaternion.Euler(0f, 30f, 0f);
+        }
+    }
+
+    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    {
+        if (stream.IsWriting)
+        {
+            // This client owns this object: send the others our data
+            stream.SendNext(selectedAsset.transform.position);
+        }
+        else
+        {
+            // Network player, receive data
+            selectedAsset.transform.position = (Vector3)stream.ReceiveNext();
         }
     }
 }
