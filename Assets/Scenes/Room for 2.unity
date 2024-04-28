@@ -11330,6 +11330,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 125309417444851987, guid: b800320608c25994b93a838201eaac17, type: 3}
+      propertyPath: sceneViewId
+      value: 23
+      objectReference: {fileID: 0}
     - target: {fileID: 4581422115171668134, guid: b800320608c25994b93a838201eaac17, type: 3}
       propertyPath: m_RootOrder
       value: 1
