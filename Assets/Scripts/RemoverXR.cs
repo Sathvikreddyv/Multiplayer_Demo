@@ -10,7 +10,7 @@ using UnityEngine.InputSystem;
 public class RemoverXR : MonoBehaviourPunCallbacks, IPunObservable
 {
     public GameObject selectedAsset;
-    public ObjectPlacement objectPlacement;
+    public ObjectPlacementXR objectPlacement;
     public LayerMask layerMask;
 
     public InputActionReference PrimaryButtonAction;
