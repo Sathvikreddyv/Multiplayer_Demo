@@ -74,14 +74,14 @@ namespace Com.MyCompany.Mygame
         // Start is called before the first frame update
         void Start()
         {
-            if(XRSettings.isDeviceActive)
-            {
-                playerPrefab = XRPlayer;
-            }
-            else
-            {
+            //if(XRSettings.isDeviceActive)
+            //{
+            //    playerPrefab = XRPlayer;
+            //}
+            //else
+            //{
                 playerPrefab = DesktopPlayer;
-            }
+            //}
 
             if (playerPrefab == null)
             {
