@@ -61,7 +61,7 @@ public class RemoverXR : MonoBehaviourPunCallbacks, IPunObservable
         Debug.Log(selectedAsset.name);
         if (selectedAsset.tag != "ground")
         {
-            selectedAsset.transform.rotation = Quaternion.Euler(0f, 30f, 0f);
+            selectedAsset.transform.rotation = Quaternion.Euler(0f, selectedAsset.transform.rotation.y+30f, 0f);
         }
     }
 
