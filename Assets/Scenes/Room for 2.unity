@@ -3109,7 +3109,7 @@ PrefabInstance:
     - target: {fileID: 7905324722821699742, guid: 6e1f31843f7e1fb44978b5e9a32cd161, type: 3}
       propertyPath: XRPlayer
       value: 
-      objectReference: {fileID: 501251473873390509}
+      objectReference: {fileID: 7172998677392111928, guid: b800320608c25994b93a838201eaac17, type: 3}
     - target: {fileID: 7905324722821699742, guid: 6e1f31843f7e1fb44978b5e9a32cd161, type: 3}
       propertyPath: playerPrefab
       value: 
@@ -11544,7 +11544,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4581422115171668134, guid: b800320608c25994b93a838201eaac17, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 34.45
+      value: 36.7
       objectReference: {fileID: 0}
     - target: {fileID: 4581422115171668134, guid: b800320608c25994b93a838201eaac17, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11666,9 +11666,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Complete XR Origin Set Up
       objectReference: {fileID: 0}
-    - target: {fileID: 7798949829179270908, guid: b800320608c25994b93a838201eaac17, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -7.3
+    - target: {fileID: 7172998677392111928, guid: b800320608c25994b93a838201eaac17, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8003905014330778747, guid: b800320608c25994b93a838201eaac17, type: 3}
       propertyPath: m_AnchorMax.y
