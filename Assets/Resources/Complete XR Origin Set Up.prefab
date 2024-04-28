@@ -124,8 +124,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Remover, Assembly-CSharp
+      - m_Target: {fileID: 212222390}
+        m_TargetAssemblyTypeName: RemoverXR, Assembly-CSharp
         m_MethodName: RotateObject
         m_Mode: 1
         m_Arguments:
