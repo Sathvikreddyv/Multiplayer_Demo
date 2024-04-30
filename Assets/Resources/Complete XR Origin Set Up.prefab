@@ -12513,7 +12513,7 @@ MonoBehaviour:
   Assetcounter: {fileID: 0}
   layermask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 67108800
   PrimaryButtonAction: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   rayInteractor: {fileID: 6507936977743513671}
 --- !u!1 &7800771249252885302
