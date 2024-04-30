@@ -70,7 +70,7 @@ public class RemoverXR : MonoBehaviourPunCallbacks, IPunObservable
         if (stream.IsWriting)
         {
             // This client owns this object: send the others our data
-            stream.SendNext(selectedAsset.transform.position);
+            stream.SendNext(selectedAsset.transform);
         }
         else
         {
