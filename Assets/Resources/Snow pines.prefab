@@ -505,6 +505,8 @@ GameObject:
   - component: {fileID: 8191104286525733776}
   - component: {fileID: 3345391294366902410}
   - component: {fileID: 3345391294366902409}
+  - component: {fileID: 7817857784207824256}
+  - component: {fileID: 630882919717957226}
   m_Layer: 10
   m_Name: Snow pines
   m_TagString: snow pines
@@ -521,7 +523,7 @@ Transform:
   m_GameObject: {fileID: 4584410565124656057}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 49.6, y: 0, z: 1756.3}
-  m_LocalScale: {x: 1.0563494, y: 1.0563494, z: 1.0563494}
+  m_LocalScale: {x: 0.85092115, y: 0.85092115, z: 0.85092115}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5900564028408201267}
@@ -604,6 +606,7 @@ MonoBehaviour:
   OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
+  - {fileID: 3345391293004717518}
   - {fileID: 6436960490324434294}
   sceneViewId: 0
   InstantiationId: 0
@@ -749,6 +752,38 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &7817857784207824256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4584410565124656057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fab52808073fad42a2e253679aa1144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrimaryButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!114 &630882919717957226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4584410565124656057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f74178fb9acfc4d91d5e00726ba19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rayInteractor: {fileID: 0}
+  RightHandController: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 1024
+  photonView: {fileID: 8191104286525733776}
 --- !u!1 &5317956649798674513
 GameObject:
   m_ObjectHideFlags: 0

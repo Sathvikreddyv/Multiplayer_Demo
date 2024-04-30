@@ -10094,6 +10094,8 @@ GameObject:
   - component: {fileID: 4959801747495475577}
   - component: {fileID: 8607167147015390510}
   - component: {fileID: 8607167147015390509}
+  - component: {fileID: 1860257220933879943}
+  - component: {fileID: 3596999162278006569}
   m_Layer: 24
   m_Name: Little lake
   m_TagString: little lake
@@ -10110,7 +10112,7 @@ Transform:
   m_GameObject: {fileID: 5403398020533252769}
   m_LocalRotation: {x: 0, y: -0.21049736, z: 0, w: 0.9775945}
   m_LocalPosition: {x: -134.52, y: 4.42, z: 1695.9299}
-  m_LocalScale: {x: 0.65357107, y: 0.65357107, z: 0.65357107}
+  m_LocalScale: {x: 2.7369127, y: 2.7369127, z: 2.7369127}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5403398021778475002}
@@ -10317,6 +10319,7 @@ MonoBehaviour:
   OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
+  - {fileID: 8607167145638077828}
   - {fileID: -3297688395538516073}
   sceneViewId: 0
   InstantiationId: 0
@@ -10462,6 +10465,38 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &1860257220933879943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5403398020533252769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fab52808073fad42a2e253679aa1144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrimaryButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!114 &3596999162278006569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5403398020533252769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f74178fb9acfc4d91d5e00726ba19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rayInteractor: {fileID: 0}
+  RightHandController: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 16777216
+  photonView: {fileID: 4959801747495475577}
 --- !u!1 &5403398020671594136
 GameObject:
   m_ObjectHideFlags: 0

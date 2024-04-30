@@ -603,6 +603,8 @@ GameObject:
   - component: {fileID: -5747894813787497712}
   - component: {fileID: 1973190305221778162}
   - component: {fileID: 1973190305221778161}
+  - component: {fileID: 3889540011968003561}
+  - component: {fileID: 7917918778106788586}
   m_Layer: 17
   m_Name: Little cave
   m_TagString: little cave
@@ -619,7 +621,7 @@ Transform:
   m_GameObject: {fileID: 8433921686568799980}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -95.6, y: 0, z: 1593.7}
-  m_LocalScale: {x: 0.73434955, y: 0.73434955, z: 0.73434955}
+  m_LocalScale: {x: 0.5915406, y: 0.5915406, z: 0.5915406}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7988461976543907035}
@@ -698,6 +700,7 @@ MonoBehaviour:
   OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
+  - {fileID: 1973190304548177569}
   - {fileID: 767980644234097004}
   sceneViewId: 0
   InstantiationId: 0
@@ -843,3 +846,35 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &3889540011968003561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8433921686568799980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fab52808073fad42a2e253679aa1144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrimaryButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!114 &7917918778106788586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8433921686568799980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f74178fb9acfc4d91d5e00726ba19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rayInteractor: {fileID: 0}
+  RightHandController: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 131072
+  photonView: {fileID: -5747894813787497712}

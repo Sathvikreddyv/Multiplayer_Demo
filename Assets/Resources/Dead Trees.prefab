@@ -701,6 +701,8 @@ GameObject:
   - component: {fileID: -5778377528632678373}
   - component: {fileID: 665039319667931178}
   - component: {fileID: 665039319667931177}
+  - component: {fileID: 2125321487081454795}
+  - component: {fileID: 4047289631002071599}
   m_Layer: 9
   m_Name: Dead Trees
   m_TagString: dead trees
@@ -717,7 +719,7 @@ Transform:
   m_GameObject: {fileID: 8060738912796209494}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 22.099998, y: 0, z: 1757.4}
-  m_LocalScale: {x: 3.5171685, y: 3.5171685, z: 3.5171685}
+  m_LocalScale: {x: 2.8331847, y: 2.8331847, z: 2.8331847}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2114891570232960262}
@@ -797,6 +799,7 @@ MonoBehaviour:
   OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
+  - {fileID: 665039318888822099}
   - {fileID: -6170136714235899144}
   sceneViewId: 0
   InstantiationId: 0
@@ -942,3 +945,35 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &2125321487081454795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8060738912796209494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fab52808073fad42a2e253679aa1144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrimaryButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!114 &4047289631002071599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8060738912796209494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f74178fb9acfc4d91d5e00726ba19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rayInteractor: {fileID: 0}
+  RightHandController: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  photonView: {fileID: -5778377528632678373}

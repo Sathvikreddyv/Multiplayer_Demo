@@ -342,6 +342,8 @@ GameObject:
   - component: {fileID: 8533139245681377925}
   - component: {fileID: 6715181198123094355}
   - component: {fileID: 6715181198123094354}
+  - component: {fileID: 2413529349634646901}
+  - component: {fileID: 4692397189351396950}
   m_Layer: 15
   m_Name: Vegetation
   m_TagString: vegetation
@@ -358,7 +360,7 @@ Transform:
   m_GameObject: {fileID: 3344410885545349572}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -29.900002, y: 0, z: 1627.8}
-  m_LocalScale: {x: 0.73434955, y: 0.73434955, z: 0.73434955}
+  m_LocalScale: {x: 0.5915406, y: 0.5915406, z: 0.5915406}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4110915788187306112}
@@ -564,6 +566,7 @@ MonoBehaviour:
   OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
+  - {fileID: 6715181199291294333}
   - {fileID: 2483033915772034911}
   sceneViewId: 0
   InstantiationId: 0
@@ -709,6 +712,38 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &2413529349634646901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3344410885545349572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fab52808073fad42a2e253679aa1144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrimaryButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!114 &4692397189351396950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3344410885545349572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f74178fb9acfc4d91d5e00726ba19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rayInteractor: {fileID: 0}
+  RightHandController: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 32768
+  photonView: {fileID: 8533139245681377925}
 --- !u!1 &4110915786168757361
 GameObject:
   m_ObjectHideFlags: 0

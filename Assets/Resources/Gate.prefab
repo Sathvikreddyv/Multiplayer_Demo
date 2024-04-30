@@ -18,6 +18,8 @@ GameObject:
   - component: {fileID: -2943234739906275518}
   - component: {fileID: 8680683111168012488}
   - component: {fileID: 8680683111168012487}
+  - component: {fileID: 6778493542789537152}
+  - component: {fileID: 5376313942680261207}
   m_Layer: 13
   m_Name: Gate
   m_TagString: gate
@@ -34,7 +36,7 @@ Transform:
   m_GameObject: {fileID: 9158129963432436554}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -115.700005, y: 0, z: 1713.9}
-  m_LocalScale: {x: 6.934472, y: 5.200438, z: 12.000105}
+  m_LocalScale: {x: 5.5859256, y: 4.189109, z: 9.666445}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9153971721427271565}
@@ -161,6 +163,7 @@ MonoBehaviour:
   OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
+  - {fileID: 8680683112197640363}
   - {fileID: 3996261135871986326}
   sceneViewId: 0
   InstantiationId: 0
@@ -306,6 +309,38 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &6778493542789537152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9158129963432436554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fab52808073fad42a2e253679aa1144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrimaryButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!114 &5376313942680261207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9158129963432436554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f74178fb9acfc4d91d5e00726ba19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rayInteractor: {fileID: 0}
+  RightHandController: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 8192
+  photonView: {fileID: -2943234739906275518}
 --- !u!1 &9159200773744953599
 GameObject:
   m_ObjectHideFlags: 0

@@ -8984,6 +8984,8 @@ GameObject:
   - component: {fileID: -477842317515977743}
   - component: {fileID: 5790521001456158490}
   - component: {fileID: 5790521001456158489}
+  - component: {fileID: 6809627487771760182}
+  - component: {fileID: 7895532352257735736}
   m_Layer: 21
   m_Name: Wall ruins
   m_TagString: wall ruins
@@ -9000,7 +9002,7 @@ Transform:
   m_GameObject: {fileID: 8077193612031058897}
   m_LocalRotation: {x: 0, y: 0.7205269, z: 0, w: 0.693427}
   m_LocalPosition: {x: -76.31, y: 0, z: 1676.65}
-  m_LocalScale: {x: 3.5447786, y: 3.5447786, z: 3.5447786}
+  m_LocalScale: {x: 2.8554256, y: 2.8554256, z: 2.8554256}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5337551397029348515}
@@ -9192,6 +9194,7 @@ MonoBehaviour:
   OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
+  - {fileID: 5790521000543830035}
   - {fileID: 1410911815966236884}
   sceneViewId: 0
   InstantiationId: 0
@@ -9337,6 +9340,38 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &6809627487771760182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8077193612031058897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fab52808073fad42a2e253679aa1144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrimaryButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!114 &7895532352257735736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8077193612031058897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f74178fb9acfc4d91d5e00726ba19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rayInteractor: {fileID: 0}
+  RightHandController: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 2097152
+  photonView: {fileID: -477842317515977743}
 --- !u!1 &8294962348191753934
 GameObject:
   m_ObjectHideFlags: 0

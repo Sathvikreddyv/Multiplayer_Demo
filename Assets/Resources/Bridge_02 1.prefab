@@ -17,6 +17,8 @@ GameObject:
   - component: {fileID: -596024690926529031}
   - component: {fileID: 6719662735780259406}
   - component: {fileID: 6719662735780259405}
+  - component: {fileID: 6719662735780259402}
+  - component: {fileID: 6719662735780259403}
   m_Layer: 6
   m_Name: Bridge_02 1
   m_TagString: Bridge
@@ -33,7 +35,7 @@ Transform:
   m_GameObject: {fileID: 529730506942778781}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -80.263, y: 0, z: 1745.8}
-  m_LocalScale: {x: 1.5651927, y: 1.5651927, z: 1.5651927}
+  m_LocalScale: {x: 1.2608097, y: 1.2608097, z: 1.2608097}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -303,3 +305,35 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &6719662735780259402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529730506942778781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fab52808073fad42a2e253679aa1144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrimaryButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!114 &6719662735780259403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529730506942778781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f74178fb9acfc4d91d5e00726ba19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rayInteractor: {fileID: 0}
+  RightHandController: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  photonView: {fileID: -6092543448759751593, guid: 28fc516c8af442f4e817ddc7c3e5c003, type: 3}
