@@ -19,7 +19,7 @@ public class SnapObjectstoground : MonoBehaviour
     {
         if(!PrimaryButton.action.triggered)
         {
-            transform.position = new Vector3(transform.position.x, 0, transform.position.z);
+            transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
         }
     }
 }

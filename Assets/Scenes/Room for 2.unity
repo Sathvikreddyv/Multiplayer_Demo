@@ -11210,18 +11210,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 288205075993638051, guid: 1ef5137a3d2e82640908ad9003964d9f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2255010932472652427, guid: 1ef5137a3d2e82640908ad9003964d9f, type: 3}
       propertyPath: sceneViewId
       value: 22
       objectReference: {fileID: 0}
-    - target: {fileID: 8158680994983195041, guid: 1ef5137a3d2e82640908ad9003964d9f, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 5682881544380838265}
-    - target: {fileID: 8158680994983195041, guid: 1ef5137a3d2e82640908ad9003964d9f, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 5682881544380838264}
     - target: {fileID: 8947746998843184088, guid: 1ef5137a3d2e82640908ad9003964d9f, type: 3}
       propertyPath: m_Name
       value: Castle
@@ -11369,14 +11365,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4047289631002071599, guid: cf8c7309dde5f204780a26532e946949, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 5682881544380838265}
-    - target: {fileID: 4047289631002071599, guid: cf8c7309dde5f204780a26532e946949, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 5682881544380838264}
+    - target: {fileID: 2125321487081454795, guid: cf8c7309dde5f204780a26532e946949, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8060738912796209494, guid: cf8c7309dde5f204780a26532e946949, type: 3}
       propertyPath: m_Name
       value: Dead Trees
@@ -11420,14 +11412,6 @@ PrefabInstance:
       propertyPath: sceneViewId
       value: 20
       objectReference: {fileID: 0}
-    - target: {fileID: 152393974133227595, guid: 21591ec03b6edfe469053792d9bf0f78, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 5682881544380838265}
-    - target: {fileID: 152393974133227595, guid: 21591ec03b6edfe469053792d9bf0f78, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 5682881544380838264}
     - target: {fileID: 1284813770690238694, guid: 21591ec03b6edfe469053792d9bf0f78, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -11475,6 +11459,10 @@ PrefabInstance:
     - target: {fileID: 1284813770690238695, guid: 21591ec03b6edfe469053792d9bf0f78, type: 3}
       propertyPath: m_Name
       value: desert rocks
+      objectReference: {fileID: 0}
+    - target: {fileID: 4367862536046999692, guid: 21591ec03b6edfe469053792d9bf0f78, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21591ec03b6edfe469053792d9bf0f78, type: 3}
@@ -11616,14 +11604,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7917918778106788586, guid: b3c81e2c1e535d04d92e62554893e9e2, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 5682881544380838265}
-    - target: {fileID: 7917918778106788586, guid: b3c81e2c1e535d04d92e62554893e9e2, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 5682881544380838264}
+    - target: {fileID: 3889540011968003561, guid: b3c81e2c1e535d04d92e62554893e9e2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8433921686568799980, guid: b3c81e2c1e535d04d92e62554893e9e2, type: 3}
       propertyPath: m_Name
       value: Little cave
@@ -11740,14 +11724,10 @@ PrefabInstance:
       propertyPath: sceneViewId
       value: 18
       objectReference: {fileID: 0}
-    - target: {fileID: 7514362447622987473, guid: 091fa54357a568e4fa047bfa1ce04778, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 5682881544380838265}
-    - target: {fileID: 7514362447622987473, guid: 091fa54357a568e4fa047bfa1ce04778, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 5682881544380838264}
+    - target: {fileID: 3248078316363421691, guid: 091fa54357a568e4fa047bfa1ce04778, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8210038128073300579, guid: 091fa54357a568e4fa047bfa1ce04778, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -11967,14 +11947,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rounded wood pattern
       objectReference: {fileID: 0}
-    - target: {fileID: 8967508262988696401, guid: 02b1ff7816a6f7a428dbd454d0005516, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 5682881544380838265}
-    - target: {fileID: 8967508262988696401, guid: 02b1ff7816a6f7a428dbd454d0005516, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 5682881544380838264}
+    - target: {fileID: 6487876719028210552, guid: 02b1ff7816a6f7a428dbd454d0005516, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02b1ff7816a6f7a428dbd454d0005516, type: 3}
 --- !u!1001 &2785550877322521934
@@ -11991,6 +11967,10 @@ PrefabInstance:
     - target: {fileID: 1221508367786027452, guid: 44d37a46dbfed884aaf294b4e7e4928e, type: 3}
       propertyPath: m_Name
       value: Trees
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156644374622405940, guid: 44d37a46dbfed884aaf294b4e7e4928e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2345612250630954008, guid: 44d37a46dbfed884aaf294b4e7e4928e, type: 3}
       propertyPath: m_RootOrder
@@ -12036,14 +12016,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5968455418339423831, guid: 44d37a46dbfed884aaf294b4e7e4928e, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 5682881544380838265}
-    - target: {fileID: 5968455418339423831, guid: 44d37a46dbfed884aaf294b4e7e4928e, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 5682881544380838264}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44d37a46dbfed884aaf294b4e7e4928e, type: 3}
 --- !u!4 &3121900136477873989
@@ -12083,14 +12055,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 630882919717957226, guid: fc0e65f4c3ab0974d85ef30c708074ed, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 5682881544380838265}
-    - target: {fileID: 630882919717957226, guid: fc0e65f4c3ab0974d85ef30c708074ed, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 5682881544380838264}
     - target: {fileID: 4584410565124656057, guid: fc0e65f4c3ab0974d85ef30c708074ed, type: 3}
       propertyPath: m_Name
       value: Snow pines
@@ -12137,6 +12101,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5706732508728449785, guid: fc0e65f4c3ab0974d85ef30c708074ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7817857784207824256, guid: fc0e65f4c3ab0974d85ef30c708074ed, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8191104286525733776, guid: fc0e65f4c3ab0974d85ef30c708074ed, type: 3}
@@ -12242,14 +12210,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5669453106885019403, guid: 7f2897f5bff278a4f92b85c7a5f7744f, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 5682881544380838265}
-    - target: {fileID: 5669453106885019403, guid: 7f2897f5bff278a4f92b85c7a5f7744f, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 5682881544380838264}
+    - target: {fileID: 5611592845804106314, guid: 7f2897f5bff278a4f92b85c7a5f7744f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f2897f5bff278a4f92b85c7a5f7744f, type: 3}
 --- !u!1 &3836783754927103642
@@ -12437,14 +12401,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stonehenge
       objectReference: {fileID: 0}
-    - target: {fileID: 1037352353070046790, guid: 6c7eea881766fcd41b797e9e9558a4fd, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 5682881544380838265}
-    - target: {fileID: 1037352353070046790, guid: 6c7eea881766fcd41b797e9e9558a4fd, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 5682881544380838264}
+    - target: {fileID: 1037180216782912556, guid: 6c7eea881766fcd41b797e9e9558a4fd, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4409059146108586308, guid: 6c7eea881766fcd41b797e9e9558a4fd, type: 3}
       propertyPath: sceneViewId
       value: 12
@@ -12517,14 +12477,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3540999430736593375, guid: 651867647d5740c409f5a3447fd5828c, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 5682881544380838265}
-    - target: {fileID: 3540999430736593375, guid: 651867647d5740c409f5a3447fd5828c, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 5682881544380838264}
+    - target: {fileID: 1101036058080705225, guid: 651867647d5740c409f5a3447fd5828c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4081660453633648229, guid: 651867647d5740c409f5a3447fd5828c, type: 3}
       propertyPath: sceneViewId
       value: 11
@@ -12990,11 +12946,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b800320608c25994b93a838201eaac17, type: 3}
---- !u!1 &5682881544380838264 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5493279467297649897, guid: b800320608c25994b93a838201eaac17, type: 3}
-  m_PrefabInstance: {fileID: 5682881544380838263}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &5682881544380838265 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6507936977743513671, guid: b800320608c25994b93a838201eaac17, type: 3}
@@ -13294,14 +13245,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7895532352257735736, guid: d83e890ccb33d5d4ba8623caf5689ea3, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 5682881544380838265}
-    - target: {fileID: 7895532352257735736, guid: d83e890ccb33d5d4ba8623caf5689ea3, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 5682881544380838264}
+    - target: {fileID: 6809627487771760182, guid: d83e890ccb33d5d4ba8623caf5689ea3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8077193612031058897, guid: d83e890ccb33d5d4ba8623caf5689ea3, type: 3}
       propertyPath: m_Name
       value: Wall ruins
@@ -13390,18 +13337,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2413529349634646901, guid: a9cc4c249da8f4c4b9e625b2a6448d03, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3344410885545349572, guid: a9cc4c249da8f4c4b9e625b2a6448d03, type: 3}
       propertyPath: m_Name
       value: Vegetation
       objectReference: {fileID: 0}
-    - target: {fileID: 4692397189351396950, guid: a9cc4c249da8f4c4b9e625b2a6448d03, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 5682881544380838265}
-    - target: {fileID: 4692397189351396950, guid: a9cc4c249da8f4c4b9e625b2a6448d03, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 5682881544380838264}
     - target: {fileID: 7448554820652862996, guid: a9cc4c249da8f4c4b9e625b2a6448d03, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -13511,14 +13454,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6719662735780259403, guid: 2d243548e4f176d48bd0972a95ea4994, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 5682881544380838265}
-    - target: {fileID: 6719662735780259403, guid: 2d243548e4f176d48bd0972a95ea4994, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 5682881544380838264}
+    - target: {fileID: 6719662735780259402, guid: 2d243548e4f176d48bd0972a95ea4994, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d243548e4f176d48bd0972a95ea4994, type: 3}
 --- !u!1 &6954145373808183602
@@ -13678,6 +13617,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3727169725755684909, guid: f494954e125ec2e4d96d228e2b784055, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4654433798055611062, guid: f494954e125ec2e4d96d228e2b784055, type: 3}
       propertyPath: m_Name
       value: Random pines
@@ -13686,14 +13629,6 @@ PrefabInstance:
       propertyPath: sceneViewId
       value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 8962021415008023418, guid: f494954e125ec2e4d96d228e2b784055, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 5682881544380838265}
-    - target: {fileID: 8962021415008023418, guid: f494954e125ec2e4d96d228e2b784055, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 5682881544380838264}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f494954e125ec2e4d96d228e2b784055, type: 3}
 --- !u!33 &7197091803555361200
@@ -13729,6 +13664,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6682428903061471340, guid: e158f9ecf25a8ee4cbf3dc0b3e604a7a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7415940360087028515, guid: e158f9ecf25a8ee4cbf3dc0b3e604a7a, type: 3}
       propertyPath: sceneViewId
       value: 6
@@ -13777,14 +13716,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8570373721023745637, guid: e158f9ecf25a8ee4cbf3dc0b3e604a7a, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 5682881544380838265}
-    - target: {fileID: 8570373721023745637, guid: e158f9ecf25a8ee4cbf3dc0b3e604a7a, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 5682881544380838264}
     - target: {fileID: 8960645964177958001, guid: e158f9ecf25a8ee4cbf3dc0b3e604a7a, type: 3}
       propertyPath: m_Name
       value: Rock formation
@@ -13913,6 +13844,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2576766085397272678, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7761269846588442613, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
       propertyPath: sceneViewId
       value: 5
@@ -13965,14 +13900,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9042859642081443355, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 5682881544380838265}
-    - target: {fileID: 9042859642081443355, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 5682881544380838264}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
 --- !u!64 &8341875994833115656
@@ -14410,14 +14337,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3596999162278006569, guid: ed47633b817ee894eaba4b7a2c3b3acc, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 5682881544380838265}
-    - target: {fileID: 3596999162278006569, guid: ed47633b817ee894eaba4b7a2c3b3acc, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 5682881544380838264}
+    - target: {fileID: 1860257220933879943, guid: ed47633b817ee894eaba4b7a2c3b3acc, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4959801747495475577, guid: ed47633b817ee894eaba4b7a2c3b3acc, type: 3}
       propertyPath: sceneViewId
       value: 4
@@ -14483,14 +14406,10 @@ PrefabInstance:
       propertyPath: sceneViewId
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 5376313942680261207, guid: bd51e84c7849278498beb0d0bb3d62f3, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 5682881544380838265}
-    - target: {fileID: 5376313942680261207, guid: bd51e84c7849278498beb0d0bb3d62f3, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 5682881544380838264}
+    - target: {fileID: 6778493542789537152, guid: bd51e84c7849278498beb0d0bb3d62f3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9158129963432436554, guid: bd51e84c7849278498beb0d0bb3d62f3, type: 3}
       propertyPath: m_Name
       value: Gate
@@ -14660,14 +14579,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8870633107215112501, guid: d2779c218e702864baf31c580f93e617, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 5682881544380838265}
-    - target: {fileID: 8870633107215112501, guid: d2779c218e702864baf31c580f93e617, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 5682881544380838264}
+    - target: {fileID: 8870633107215112500, guid: d2779c218e702864baf31c580f93e617, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2779c218e702864baf31c580f93e617, type: 3}
 --- !u!23 &9096364731733156781
