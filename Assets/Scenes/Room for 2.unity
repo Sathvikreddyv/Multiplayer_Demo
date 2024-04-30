@@ -11210,6 +11210,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2255010932472652427, guid: 1ef5137a3d2e82640908ad9003964d9f, type: 3}
+      propertyPath: sceneViewId
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 8947746998843184088, guid: 1ef5137a3d2e82640908ad9003964d9f, type: 3}
       propertyPath: m_Name
       value: Castle
@@ -11309,6 +11313,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5778377528632678373, guid: cf8c7309dde5f204780a26532e946949, type: 3}
+      propertyPath: sceneViewId
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 1814315772604952980, guid: cf8c7309dde5f204780a26532e946949, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -11392,6 +11400,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5545426797823970295, guid: 21591ec03b6edfe469053792d9bf0f78, type: 3}
+      propertyPath: sceneViewId
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 1284813770690238694, guid: 21591ec03b6edfe469053792d9bf0f78, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -11532,6 +11544,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5747894813787497712, guid: b3c81e2c1e535d04d92e62554893e9e2, type: 3}
+      propertyPath: sceneViewId
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 1237057073185719043, guid: b3c81e2c1e535d04d92e62554893e9e2, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -11688,6 +11704,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4366764999968505719, guid: 091fa54357a568e4fa047bfa1ce04778, type: 3}
+      propertyPath: sceneViewId
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 8210038128073300579, guid: 091fa54357a568e4fa047bfa1ce04778, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -11855,6 +11875,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2115386582060403891, guid: 02b1ff7816a6f7a428dbd454d0005516, type: 3}
+      propertyPath: sceneViewId
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 2739243325886166466, guid: 02b1ff7816a6f7a428dbd454d0005516, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -11912,6 +11936,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6721887487059431451, guid: 44d37a46dbfed884aaf294b4e7e4928e, type: 3}
+      propertyPath: sceneViewId
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 1221508367786027452, guid: 44d37a46dbfed884aaf294b4e7e4928e, type: 3}
       propertyPath: m_Name
       value: Trees
@@ -12047,6 +12075,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8191104286525733776, guid: fc0e65f4c3ab0974d85ef30c708074ed, type: 3}
+      propertyPath: sceneViewId
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc0e65f4c3ab0974d85ef30c708074ed, type: 3}
 --- !u!4 &3347881811976548403
@@ -12097,6 +12129,10 @@ PrefabInstance:
     - target: {fileID: 92861834448548404, guid: 7f2897f5bff278a4f92b85c7a5f7744f, type: 3}
       propertyPath: m_Name
       value: Warrior statue
+      objectReference: {fileID: 0}
+    - target: {fileID: 3669427664722046157, guid: 7f2897f5bff278a4f92b85c7a5f7744f, type: 3}
+      propertyPath: sceneViewId
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4090754982022997545, guid: 7f2897f5bff278a4f92b85c7a5f7744f, type: 3}
       propertyPath: m_RootOrder
@@ -12329,6 +12365,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stonehenge
       objectReference: {fileID: 0}
+    - target: {fileID: 4409059146108586308, guid: 6c7eea881766fcd41b797e9e9558a4fd, type: 3}
+      propertyPath: sceneViewId
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c7eea881766fcd41b797e9e9558a4fd, type: 3}
 --- !u!33 &4507594540374234688
@@ -12397,6 +12437,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4081660453633648229, guid: 651867647d5740c409f5a3447fd5828c, type: 3}
+      propertyPath: sceneViewId
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 4829456514628189787, guid: 651867647d5740c409f5a3447fd5828c, type: 3}
       propertyPath: m_Name
       value: Cactus
@@ -13109,6 +13153,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -477842317515977743, guid: d83e890ccb33d5d4ba8623caf5689ea3, type: 3}
+      propertyPath: sceneViewId
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1668336274552396566, guid: d83e890ccb33d5d4ba8623caf5689ea3, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -13289,6 +13337,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8533139245681377925, guid: a9cc4c249da8f4c4b9e625b2a6448d03, type: 3}
+      propertyPath: sceneViewId
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9cc4c249da8f4c4b9e625b2a6448d03, type: 3}
 --- !u!1001 &6719662735780259400
@@ -13298,6 +13350,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5683727132799187970, guid: 2d243548e4f176d48bd0972a95ea4994, type: 3}
+      propertyPath: sceneViewId
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 529730506942778781, guid: 2d243548e4f176d48bd0972a95ea4994, type: 3}
       propertyPath: m_Name
       value: Bridge_02
@@ -13509,6 +13565,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Random pines
       objectReference: {fileID: 0}
+    - target: {fileID: 8177801628697921699, guid: f494954e125ec2e4d96d228e2b784055, type: 3}
+      propertyPath: sceneViewId
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f494954e125ec2e4d96d228e2b784055, type: 3}
 --- !u!33 &7197091803555361200
@@ -13544,6 +13604,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7415940360087028515, guid: e158f9ecf25a8ee4cbf3dc0b3e604a7a, type: 3}
+      propertyPath: sceneViewId
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8007707750540047011, guid: e158f9ecf25a8ee4cbf3dc0b3e604a7a, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -13716,6 +13780,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7761269846588442613, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
+      propertyPath: sceneViewId
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8198271522882438364, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
       propertyPath: m_Name
       value: Big crystal
@@ -14201,6 +14269,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4959801747495475577, guid: ed47633b817ee894eaba4b7a2c3b3acc, type: 3}
+      propertyPath: sceneViewId
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5403398020533252769, guid: ed47633b817ee894eaba4b7a2c3b3acc, type: 3}
       propertyPath: m_Name
       value: Little lake
@@ -14258,6 +14330,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2943234739906275518, guid: bd51e84c7849278498beb0d0bb3d62f3, type: 3}
+      propertyPath: sceneViewId
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9158129963432436554, guid: bd51e84c7849278498beb0d0bb3d62f3, type: 3}
       propertyPath: m_Name
       value: Gate
@@ -14375,6 +14451,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4569664881528775508, guid: d2779c218e702864baf31c580f93e617, type: 3}
+      propertyPath: sceneViewId
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8870633105452029055, guid: d2779c218e702864baf31c580f93e617, type: 3}
       propertyPath: m_Name
       value: Ice
