@@ -12217,6 +12217,7 @@ GameObject:
   - component: {fileID: 1963860449484598651}
   - component: {fileID: 3284005821859210312}
   - component: {fileID: 3284005821859210317}
+  - component: {fileID: 5682881544380838266}
   m_Layer: 2
   m_Name: XR Origin
   m_TagString: Untagged
@@ -12473,6 +12474,48 @@ MonoBehaviour:
   m_LocomotionProvider: {fileID: 3284005821859210313}
   m_MinHeight: 1
   m_MaxHeight: Infinity
+--- !u!114 &5682881544380838266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7798949829179270911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27ade2578da46a6409bd8811d1898739, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetPrefab: {fileID: 0}
+  button:
+  - {fileID: 740424894371225353}
+  - {fileID: 3697933444338229865}
+  - {fileID: 1757308190757883493}
+  - {fileID: 1126685716137037126}
+  - {fileID: 36409336020186848}
+  - {fileID: 8462496669982161837}
+  - {fileID: 4550879363231604623}
+  - {fileID: 4999862748935473907}
+  - {fileID: 7868688403067095747}
+  - {fileID: 286379782643155819}
+  - {fileID: 3300127323486220865}
+  - {fileID: 5695966062707928682}
+  - {fileID: 7637609107114090527}
+  - {fileID: 3727377602324541183}
+  - {fileID: 4861430280550063006}
+  - {fileID: 4583802295296565003}
+  - {fileID: 5951339270450193930}
+  - {fileID: 6689483020406234714}
+  - {fileID: 5967942530559119757}
+  - {fileID: 2716175105797779043}
+  counterCheck: 0
+  counter: 0
+  Assetcounter: {fileID: 0}
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
+  PrimaryButtonAction: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rayInteractor: {fileID: 6507936977743513671}
 --- !u!1 &7800771249252885302
 GameObject:
   m_ObjectHideFlags: 0
