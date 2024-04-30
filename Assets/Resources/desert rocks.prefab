@@ -562,7 +562,6 @@ GameObject:
   - component: {fileID: 1521225314583432130}
   - component: {fileID: 1521225314583432129}
   - component: {fileID: 4367862536046999692}
-  - component: {fileID: 152393974133227595}
   m_Layer: 22
   m_Name: desert rocks
   m_TagString: desert rocks
@@ -659,7 +658,7 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 1521225315807455692}
   - {fileID: -593426864974961911}
-  sceneViewId: 0
+  sceneViewId: 20
   InstantiationId: 0
   isRuntimeInstantiated: 0
 --- !u!54 &1521225314583432130
@@ -816,22 +815,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrimaryButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
---- !u!114 &152393974133227595
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1284813770690238695}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37f74178fb9acfc4d91d5e00726ba19d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  rayInteractor: {fileID: 0}
-  RightHandController: {fileID: 0}
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 4194304
-  photonView: {fileID: -5545426797823970295}

@@ -343,7 +343,6 @@ GameObject:
   - component: {fileID: 6715181198123094355}
   - component: {fileID: 6715181198123094354}
   - component: {fileID: 2413529349634646901}
-  - component: {fileID: 4692397189351396950}
   m_Layer: 15
   m_Name: Vegetation
   m_TagString: vegetation
@@ -568,7 +567,7 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 6715181199291294333}
   - {fileID: 2483033915772034911}
-  sceneViewId: 0
+  sceneViewId: 9
   InstantiationId: 0
   isRuntimeInstantiated: 0
 --- !u!54 &6715181198123094355
@@ -725,25 +724,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrimaryButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
---- !u!114 &4692397189351396950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3344410885545349572}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37f74178fb9acfc4d91d5e00726ba19d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  rayInteractor: {fileID: 0}
-  RightHandController: {fileID: 0}
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 32768
-  photonView: {fileID: 8533139245681377925}
 --- !u!1 &4110915786168757361
 GameObject:
   m_ObjectHideFlags: 0

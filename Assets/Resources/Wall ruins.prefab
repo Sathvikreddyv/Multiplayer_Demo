@@ -8985,7 +8985,6 @@ GameObject:
   - component: {fileID: 5790521001456158490}
   - component: {fileID: 5790521001456158489}
   - component: {fileID: 6809627487771760182}
-  - component: {fileID: 7895532352257735736}
   m_Layer: 21
   m_Name: Wall ruins
   m_TagString: wall ruins
@@ -9196,7 +9195,7 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 5790521000543830035}
   - {fileID: 1410911815966236884}
-  sceneViewId: 0
+  sceneViewId: 10
   InstantiationId: 0
   isRuntimeInstantiated: 0
 --- !u!54 &5790521001456158490
@@ -9353,25 +9352,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrimaryButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
---- !u!114 &7895532352257735736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8077193612031058897}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37f74178fb9acfc4d91d5e00726ba19d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  rayInteractor: {fileID: 0}
-  RightHandController: {fileID: 0}
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 2097152
-  photonView: {fileID: -477842317515977743}
 --- !u!1 &8294962348191753934
 GameObject:
   m_ObjectHideFlags: 0

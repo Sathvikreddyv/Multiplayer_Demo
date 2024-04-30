@@ -1833,7 +1833,6 @@ GameObject:
   - component: {fileID: 7524527424297886877}
   - component: {fileID: 7524527424297886876}
   - component: {fileID: 6682428903061471340}
-  - component: {fileID: 8570373721023745637}
   m_Layer: 18
   m_Name: Rock formation
   m_TagString: rock formation
@@ -1944,7 +1943,7 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 7524527423037433596}
   - {fileID: 98021305422224621}
-  sceneViewId: 0
+  sceneViewId: 6
   InstantiationId: 0
   isRuntimeInstantiated: 0
 --- !u!54 &7524527424297886877
@@ -2101,22 +2100,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrimaryButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
---- !u!114 &8570373721023745637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8960645964177958001}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37f74178fb9acfc4d91d5e00726ba19d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  rayInteractor: {fileID: 0}
-  RightHandController: {fileID: 0}
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 262144
-  photonView: {fileID: 7415940360087028515}

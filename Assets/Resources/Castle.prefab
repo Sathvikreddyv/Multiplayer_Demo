@@ -5837,7 +5837,6 @@ GameObject:
   - component: {fileID: 293610098000666331}
   - component: {fileID: 293610098000666330}
   - component: {fileID: 288205075993638051}
-  - component: {fileID: 8158680994983195041}
   m_Layer: 20
   m_Name: Castle
   m_TagString: castle
@@ -6017,7 +6016,7 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 293610099142748655}
   - {fileID: 7760647969704447542}
-  sceneViewId: 0
+  sceneViewId: 22
   InstantiationId: 0
   isRuntimeInstantiated: 0
 --- !u!54 &293610098000666331
@@ -6174,25 +6173,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrimaryButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
---- !u!114 &8158680994983195041
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8947746998843184088}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37f74178fb9acfc4d91d5e00726ba19d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  rayInteractor: {fileID: 0}
-  RightHandController: {fileID: 0}
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 1048576
-  photonView: {fileID: 2255010932472652427}
 --- !u!1 &8947746998849193290
 GameObject:
   m_ObjectHideFlags: 0

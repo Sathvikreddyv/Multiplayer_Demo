@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 3805355175170211086}
   - component: {fileID: 3805355175170211085}
   - component: {fileID: 5611592845804106314}
-  - component: {fileID: 5669453106885019403}
   m_Layer: 23
   m_Name: Warrior statue
   m_TagString: warrior staue
@@ -110,7 +109,7 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 3805355174655258157}
   - {fileID: -2728552134329850331}
-  sceneViewId: 0
+  sceneViewId: 14
   InstantiationId: 0
   isRuntimeInstantiated: 0
 --- !u!54 &3805355175170211086
@@ -267,25 +266,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrimaryButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
---- !u!114 &5669453106885019403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 92861834448548404}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37f74178fb9acfc4d91d5e00726ba19d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  rayInteractor: {fileID: 0}
-  RightHandController: {fileID: 0}
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 8388608
-  photonView: {fileID: 3669427664722046157}
 --- !u!1 &809273741538706347
 GameObject:
   m_ObjectHideFlags: 0

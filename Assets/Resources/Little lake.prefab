@@ -10095,7 +10095,6 @@ GameObject:
   - component: {fileID: 8607167147015390510}
   - component: {fileID: 8607167147015390509}
   - component: {fileID: 1860257220933879943}
-  - component: {fileID: 3596999162278006569}
   m_Layer: 24
   m_Name: Little lake
   m_TagString: little lake
@@ -10321,7 +10320,7 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 8607167145638077828}
   - {fileID: -3297688395538516073}
-  sceneViewId: 0
+  sceneViewId: 4
   InstantiationId: 0
   isRuntimeInstantiated: 0
 --- !u!54 &8607167147015390510
@@ -10478,25 +10477,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrimaryButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
---- !u!114 &3596999162278006569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5403398020533252769}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37f74178fb9acfc4d91d5e00726ba19d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  rayInteractor: {fileID: 0}
-  RightHandController: {fileID: 0}
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 16777216
-  photonView: {fileID: 4959801747495475577}
 --- !u!1 &5403398020671594136
 GameObject:
   m_ObjectHideFlags: 0

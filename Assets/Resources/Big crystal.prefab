@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 8198271523378832454}
   - component: {fileID: 8198271523378832453}
   - component: {fileID: 2576766085397272678}
-  - component: {fileID: 9042859642081443355}
   m_Layer: 25
   m_Name: Big crystal
   m_TagString: big crystal
@@ -110,7 +109,7 @@ MonoBehaviour:
   - {fileID: 8198271522882438371}
   - {fileID: 1918184382042846666}
   - {fileID: 8198271524613712897}
-  sceneViewId: 0
+  sceneViewId: 5
   InstantiationId: 0
   isRuntimeInstantiated: 0
 --- !u!54 &8198271523378832454
@@ -267,25 +266,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrimaryButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
---- !u!114 &9042859642081443355
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8198271522882438364}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37f74178fb9acfc4d91d5e00726ba19d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  rayInteractor: {fileID: 0}
-  RightHandController: {fileID: 0}
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 33554432
-  photonView: {fileID: 7761269846588442613}
 --- !u!1001 &8198271522899963184
 PrefabInstance:
   m_ObjectHideFlags: 0

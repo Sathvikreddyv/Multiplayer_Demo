@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 2785550877322521937}
   - component: {fileID: 2785550877322521936}
   - component: {fileID: 2156644374622405940}
-  - component: {fileID: 5968455418339423831}
   m_Layer: 8
   m_Name: Trees
   m_TagString: trees
@@ -114,7 +113,7 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 2785550877209303665}
   - {fileID: 6160961883144246724}
-  sceneViewId: 0
+  sceneViewId: 16
   InstantiationId: 0
   isRuntimeInstantiated: 0
 --- !u!54 &2785550877322521937
@@ -271,25 +270,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrimaryButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
---- !u!114 &5968455418339423831
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1221508367786027452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37f74178fb9acfc4d91d5e00726ba19d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  rayInteractor: {fileID: 0}
-  RightHandController: {fileID: 0}
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 256
-  photonView: {fileID: -6721887487059431451}
 --- !u!1 &5519105217190576683
 GameObject:
   m_ObjectHideFlags: 0
