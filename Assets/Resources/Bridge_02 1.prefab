@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 6719662735780259406}
   - component: {fileID: 6719662735780259405}
   - component: {fileID: 6719662735780259402}
+  - component: {fileID: 278388221881694030}
   m_Layer: 6
   m_Name: Bridge_02 1
   m_TagString: Bridge
@@ -317,3 +318,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrimaryButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!114 &278388221881694030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529730506942778781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f74178fb9acfc4d91d5e00726ba19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rayInteractor: {fileID: 0}
+  RightHandController: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  rayEndPoint: {fileID: 0}
+  photonView: {fileID: -5683727132799187970}

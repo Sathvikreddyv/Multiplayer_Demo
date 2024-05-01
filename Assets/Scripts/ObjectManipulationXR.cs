@@ -12,7 +12,8 @@ public class ObjectManipulationXR : MonoBehaviour
     public XRRayInteractor rayInteractor;
     public GameObject RightHandController;
     public LayerMask layerMask;
-    GameObject grabbedObject;
+    //GameObject grabbedObject;
+    public GameObject rayEndPoint;
     public PhotonView photonView;
 
     // Start is called before the first frame update
@@ -47,8 +48,8 @@ public class ObjectManipulationXR : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
         {
-            // Make the grabbed object a child of the controller
-          transform.SetParent(RightHandController.transform);
+            rayEndPoint.transform.position = hit.point;
+            hit.collider.gameObject.transform.SetParent(rayEndPoint.transform);
         }
     }
 
@@ -62,12 +63,12 @@ public class ObjectManipulationXR : MonoBehaviour
         if (stream.IsWriting)
         {
             // This client owns this object: send the others our data
-            stream.SendNext(grabbedObject.transform.position);
+            stream.SendNext(transform.position);
         }
         else
         {
             // Network player, receive data
-            grabbedObject.transform.position = (Vector3)stream.ReceiveNext();
+            transform.position = (Vector3)stream.ReceiveNext();
         }
     }
 

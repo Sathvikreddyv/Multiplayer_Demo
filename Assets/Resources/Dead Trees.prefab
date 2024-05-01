@@ -702,6 +702,7 @@ GameObject:
   - component: {fileID: 665039319667931178}
   - component: {fileID: 665039319667931177}
   - component: {fileID: 2125321487081454795}
+  - component: {fileID: 3075823972187196198}
   m_Layer: 9
   m_Name: Dead Trees
   m_TagString: dead trees
@@ -957,3 +958,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrimaryButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!114 &3075823972187196198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8060738912796209494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f74178fb9acfc4d91d5e00726ba19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rayInteractor: {fileID: 0}
+  RightHandController: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  rayEndPoint: {fileID: 0}
+  photonView: {fileID: -5778377528632678373}

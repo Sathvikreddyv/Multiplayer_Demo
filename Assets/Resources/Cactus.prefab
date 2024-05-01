@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4947351527796360868}
   - component: {fileID: 4947351527796360867}
   - component: {fileID: 1101036058080705225}
+  - component: {fileID: 5573879232331983259}
   m_Layer: 14
   m_Name: Cactus
   m_TagString: cactus
@@ -271,6 +272,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrimaryButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!114 &5573879232331983259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4829456514628189787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f74178fb9acfc4d91d5e00726ba19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rayInteractor: {fileID: 0}
+  RightHandController: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 16384
+  rayEndPoint: {fileID: 0}
+  photonView: {fileID: 4081660453633648229}
 --- !u!1 &6615281633185362035
 GameObject:
   m_ObjectHideFlags: 0

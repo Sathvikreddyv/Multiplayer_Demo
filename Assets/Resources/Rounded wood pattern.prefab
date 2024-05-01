@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2736348419600562984}
   - component: {fileID: 2736348419600562983}
   - component: {fileID: 6487876719028210552}
+  - component: {fileID: 6928245832053881744}
   m_Layer: 19
   m_Name: Rounded wood pattern
   m_TagString: rounded wood pattern
@@ -276,6 +277,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrimaryButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!114 &6928245832053881744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2739243325886166467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f74178fb9acfc4d91d5e00726ba19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rayInteractor: {fileID: 0}
+  RightHandController: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 524288
+  rayEndPoint: {fileID: 0}
+  photonView: {fileID: 2115386582060403891}
 --- !u!1 &8511949904813112394
 GameObject:
   m_ObjectHideFlags: 0

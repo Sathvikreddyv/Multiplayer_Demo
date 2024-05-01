@@ -212,6 +212,7 @@ GameObject:
   - component: {fileID: 2428985608677824527}
   - component: {fileID: 2428985608677824526}
   - component: {fileID: 3248078316363421691}
+  - component: {fileID: 1433202058238684147}
   m_Layer: 16
   m_Name: Crystal
   m_TagString: crystal
@@ -462,3 +463,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrimaryButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!114 &1433202058238684147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8210038128073300580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f74178fb9acfc4d91d5e00726ba19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rayInteractor: {fileID: 0}
+  RightHandController: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 65536
+  rayEndPoint: {fileID: 0}
+  photonView: {fileID: -4366764999968505719}

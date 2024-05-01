@@ -1587,6 +1587,7 @@ GameObject:
   - component: {fileID: 7085443990244217694}
   - component: {fileID: 7085443990244217693}
   - component: {fileID: 3727169725755684909}
+  - component: {fileID: 2331898505070764126}
   m_Layer: 11
   m_Name: Random pines
   m_TagString: random pines
@@ -1849,6 +1850,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrimaryButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!114 &2331898505070764126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4654433798055611062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f74178fb9acfc4d91d5e00726ba19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rayInteractor: {fileID: 0}
+  RightHandController: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 2048
+  rayEndPoint: {fileID: 0}
+  photonView: {fileID: 8177801628697921699}
 --- !u!1 &5072979457610705754
 GameObject:
   m_ObjectHideFlags: 0
