@@ -16,6 +16,8 @@ public class ObjectManipulationXR : MonoBehaviour
     public GameObject rayEndPoint;
     public PhotonView photonView;
 
+    bool ObjectSelected;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -49,13 +51,21 @@ public class ObjectManipulationXR : MonoBehaviour
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
         {
             rayEndPoint.transform.position = hit.point;
-            hit.collider.gameObject.transform.SetParent(rayEndPoint.transform);
+
+            if (!ObjectSelected)
+            {
+                hit.collider.gameObject.transform.SetParent(rayEndPoint.transform);
+
+                ObjectSelected = true;
+            }
         }
     }
 
     public void ReleaseObject()
     {
+        ObjectSelected= false;
         transform.SetParent(null);
+        Debug.Log(transform.parent);
     }
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
