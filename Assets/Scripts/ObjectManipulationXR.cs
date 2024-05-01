@@ -19,7 +19,7 @@ public class ObjectManipulationXR : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        rayEndPoint.transform.SetParent(rayInteractor.transform);
     }
 
     // Update is called once per frame

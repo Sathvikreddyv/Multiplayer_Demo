@@ -25,7 +25,7 @@ public class CameraManager : MonoBehaviour
             //godView.SetActive(false);
             flyCam.SetActive(false);
             XRcamera.SetActive(true);
-            Debug.Log("Running on VR device: " + XRSettings.loadedDeviceName);
+            //Debug.Log("Running on VR device: " + XRSettings.loadedDeviceName);
         }
         else
         {

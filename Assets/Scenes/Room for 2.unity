@@ -12686,6 +12686,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 717955064201158431, guid: b800320608c25994b93a838201eaac17, type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 5682881544380838266}
+    - target: {fileID: 717955064201158431, guid: b800320608c25994b93a838201eaac17, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 871202882374102468, guid: b800320608c25994b93a838201eaac17, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -12969,6 +12977,10 @@ PrefabInstance:
     - target: {fileID: 5866306318321632001, guid: b800320608c25994b93a838201eaac17, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507936977743513671, guid: b800320608c25994b93a838201eaac17, type: 3}
+      propertyPath: m_RaycastMask.m_Bits
+      value: 2214592481
       objectReference: {fileID: 0}
     - target: {fileID: 6814141401569507058, guid: b800320608c25994b93a838201eaac17, type: 3}
       propertyPath: m_SizeDelta.y
@@ -13600,6 +13612,10 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 5682881544380838266}
+    - target: {fileID: 6719662735780259406, guid: 2d243548e4f176d48bd0972a95ea4994, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d243548e4f176d48bd0972a95ea4994, type: 3}
 --- !u!1 &6954145373808183602
@@ -14066,6 +14082,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8198271523378832453, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 5682881544380838266}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
 --- !u!64 &8341875994833115656
