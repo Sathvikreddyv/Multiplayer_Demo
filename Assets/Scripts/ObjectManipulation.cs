@@ -22,8 +22,6 @@ public class ObjectManipulation : MonoBehaviourPunCallbacks, IPunObservable
     
     public GameObject rayInteractor;
 
-    public GameObject RightControllerInteractor;
-
     void Start()
     {
         yPosition = transform.position.y;
@@ -32,10 +30,11 @@ public class ObjectManipulation : MonoBehaviourPunCallbacks, IPunObservable
     #region asset rotation
     void Update()
     {
-        RightControllerInteractor = GameObject.Find("Ray Interactor");
-        if (RightControllerInteractor.transform.parent.name == " RightHand (Teleport Locomotion)")
+        XRRayInteractor[] rayInteractors = GameObject.FindObjectsOfType<XRRayInteractor>();
+        foreach (XRRayInteractor x in rayInteractors)
         {
-            rayInteractor = GameObject.Find("Ray Interactor");
+            if(x.transform.parent.name.Contains("RightHand"))
+            rayInteractor = GameObject.Find("Ray Interactor").gameObject;
         }
         
 
@@ -50,8 +49,7 @@ public class ObjectManipulation : MonoBehaviourPunCallbacks, IPunObservable
             {
                 if (photonView.IsMine || photonView.Owner == null)
                 {
-                    toRotate = hit.collider.gameObject;
-                    isPressed = true;
+                   
                 }
                 else
                 {

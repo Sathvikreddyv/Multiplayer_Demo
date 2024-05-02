@@ -460,6 +460,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4401014886854383336, guid: b800320608c25994b93a838201eaac17, type: 3}
+      propertyPath: sceneViewId
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4581422115171668134, guid: b800320608c25994b93a838201eaac17, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -587,6 +591,10 @@ PrefabInstance:
     - target: {fileID: 6954628756846102038, guid: b800320608c25994b93a838201eaac17, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7168061876346043182, guid: b800320608c25994b93a838201eaac17, type: 3}
+      propertyPath: sceneViewId
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7172998677392111928, guid: b800320608c25994b93a838201eaac17, type: 3}
       propertyPath: m_Name
@@ -1829,7 +1837,7 @@ PrefabInstance:
     - target: {fileID: 7905324722821699742, guid: 6e1f31843f7e1fb44978b5e9a32cd161, type: 3}
       propertyPath: XRPlayer
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 7172998677392111928, guid: b800320608c25994b93a838201eaac17, type: 3}
     - target: {fileID: 7905324722821699742, guid: 6e1f31843f7e1fb44978b5e9a32cd161, type: 3}
       propertyPath: playerPrefab
       value: 
@@ -1837,7 +1845,7 @@ PrefabInstance:
     - target: {fileID: 7905324722821699742, guid: 6e1f31843f7e1fb44978b5e9a32cd161, type: 3}
       propertyPath: DesktopPlayer
       value: 
-      objectReference: {fileID: 147268347}
+      objectReference: {fileID: 4384930781007407157, guid: 14ade39ef058f334f970f3399c7a5d86, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e1f31843f7e1fb44978b5e9a32cd161, type: 3}
 --- !u!114 &4638162289408118828 stripped
