@@ -16,6 +16,10 @@ namespace Com.MyCompany.Mygame
         public GameObject XRPlayer;
         public GameObject DesktopPlayer;
 
+        public GameObject interactionManager;
+        public GameObject EventSystemXR;
+        public GameObject inputActionManager;
+
         #region Private Methods
         void LoadArena()
         {
@@ -77,10 +81,16 @@ namespace Com.MyCompany.Mygame
             if(XRSettings.isDeviceActive)
             {
                 playerPrefab = XRPlayer;
+                inputActionManager.SetActive(true);
+                interactionManager.SetActive(true);
+                EventSystemXR.SetActive(true);
             }
             else
             {
                 playerPrefab = DesktopPlayer;
+                inputActionManager.SetActive(false);
+                interactionManager.SetActive(false);
+                EventSystemXR.SetActive(false);
             }
 
             if (playerPrefab == null)
