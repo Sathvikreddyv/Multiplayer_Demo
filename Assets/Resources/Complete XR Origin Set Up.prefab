@@ -11144,9 +11144,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   localXRRigObject: {fileID: 7798949829179270911}
-  localInteractionManager: {fileID: 0}
-  localEventSystem: {fileID: 0}
-  inputActionManager: {fileID: 0}
+  localInteractionManager: {fileID: 3284005821284221752}
+  localEventSystem: {fileID: 3284005820715889069}
+  inputActionManager: {fileID: 3284005822355865795}
 --- !u!1 &7175954234763765154
 GameObject:
   m_ObjectHideFlags: 0
