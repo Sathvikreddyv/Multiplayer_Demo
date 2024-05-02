@@ -1904,9 +1904,9 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 262144
-  LeftTriggerButtonAction: {fileID: 0}
-  RightTriggerButtonAction: {fileID: 0}
+  RightTriggerButtonAction: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   rayInteractor: {fileID: 0}
+  RightControllerInteractor: {fileID: 0}
 --- !u!114 &98021305422224621
 MonoBehaviour:
   m_ObjectHideFlags: 0

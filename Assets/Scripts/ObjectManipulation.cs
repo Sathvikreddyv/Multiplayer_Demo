@@ -20,8 +20,9 @@ public class ObjectManipulation : MonoBehaviourPunCallbacks, IPunObservable
 
     public InputActionReference RightTriggerButtonAction;
     
-    public XRRayInteractor rayInteractor;
+    public GameObject rayInteractor;
 
+    public GameObject RightControllerInteractor;
 
     void Start()
     {
@@ -31,6 +32,13 @@ public class ObjectManipulation : MonoBehaviourPunCallbacks, IPunObservable
     #region asset rotation
     void Update()
     {
+        RightControllerInteractor = GameObject.Find("Ray Interactor");
+        if (RightControllerInteractor.transform.parent.name == " RightHand (Teleport Locomotion)")
+        {
+            rayInteractor = GameObject.Find("Ray Interactor");
+        }
+        
+
         //XR
         #region handling rotation and ray interaction through XR input(trigger Left/Right)
         if (RightTriggerButtonAction != null && RightTriggerButtonAction.action != null && RightTriggerButtonAction.action.triggered)

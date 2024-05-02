@@ -69,9 +69,9 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 33554432
-  LeftTriggerButtonAction: {fileID: 0}
-  RightTriggerButtonAction: {fileID: 0}
+  RightTriggerButtonAction: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   rayInteractor: {fileID: 0}
+  RightControllerInteractor: {fileID: 0}
 --- !u!114 &1918184382042846666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87,7 +87,7 @@ MonoBehaviour:
   m_SynchronizePosition: 1
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 1
-  m_UseLocal: 0
+  m_UseLocal: 1
 --- !u!114 &7761269846588442613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,7 +105,7 @@ MonoBehaviour:
   prefixField: -1
   Synchronization: 1
   OwnershipTransfer: 1
-  observableSearch: 2
+  observableSearch: 0
   ObservedComponents:
   - {fileID: 8198271522882438371}
   - {fileID: 1918184382042846666}
@@ -382,6 +382,6 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 0
-  LeftTriggerButtonAction: {fileID: 0}
   RightTriggerButtonAction: {fileID: 0}
   rayInteractor: {fileID: 0}
+  RightControllerInteractor: {fileID: 0}

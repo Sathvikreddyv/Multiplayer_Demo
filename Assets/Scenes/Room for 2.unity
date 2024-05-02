@@ -10977,25 +10977,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 293610098000666330, guid: 1ef5137a3d2e82640908ad9003964d9f, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1204529053798807354, guid: 1ef5137a3d2e82640908ad9003964d9f, type: 3}
-      propertyPath: rayEndPoint
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1204529053798807354, guid: 1ef5137a3d2e82640908ad9003964d9f, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1204529053798807354, guid: 1ef5137a3d2e82640908ad9003964d9f, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2255010932472652427, guid: 1ef5137a3d2e82640908ad9003964d9f, type: 3}
       propertyPath: sceneViewId
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 8947746998843184088, guid: 1ef5137a3d2e82640908ad9003964d9f, type: 3}
       propertyPath: m_Name
@@ -11056,11 +11040,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -5778377528632678373, guid: cf8c7309dde5f204780a26532e946949, type: 3}
       propertyPath: sceneViewId
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 665039319667931177, guid: cf8c7309dde5f204780a26532e946949, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1814315772604952980, guid: cf8c7309dde5f204780a26532e946949, type: 3}
       propertyPath: m_RootOrder
@@ -11106,18 +11086,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3075823972187196198, guid: cf8c7309dde5f204780a26532e946949, type: 3}
-      propertyPath: rayEndPoint
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3075823972187196198, guid: cf8c7309dde5f204780a26532e946949, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3075823972187196198, guid: cf8c7309dde5f204780a26532e946949, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8060738912796209494, guid: cf8c7309dde5f204780a26532e946949, type: 3}
       propertyPath: m_Name
       value: Dead Trees
@@ -11133,19 +11101,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -5545426797823970295, guid: 21591ec03b6edfe469053792d9bf0f78, type: 3}
       propertyPath: sceneViewId
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 691012861912996159, guid: 21591ec03b6edfe469053792d9bf0f78, type: 3}
-      propertyPath: rayEndPoint
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 691012861912996159, guid: 21591ec03b6edfe469053792d9bf0f78, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 691012861912996159, guid: 21591ec03b6edfe469053792d9bf0f78, type: 3}
-      propertyPath: RightHandController
-      value: 
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 1284813770690238694, guid: 21591ec03b6edfe469053792d9bf0f78, type: 3}
       propertyPath: m_RootOrder
@@ -11195,10 +11151,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: desert rocks
       objectReference: {fileID: 0}
-    - target: {fileID: 1521225314583432129, guid: 21591ec03b6edfe469053792d9bf0f78, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21591ec03b6edfe469053792d9bf0f78, type: 3}
 --- !u!1001 &1973190305221778159
@@ -11210,7 +11162,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -5747894813787497712, guid: b3c81e2c1e535d04d92e62554893e9e2, type: 3}
       propertyPath: sceneViewId
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1237057073185719043, guid: b3c81e2c1e535d04d92e62554893e9e2, type: 3}
       propertyPath: m_RootOrder
@@ -11256,22 +11208,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1973190305221778161, guid: b3c81e2c1e535d04d92e62554893e9e2, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5489425610134127744, guid: b3c81e2c1e535d04d92e62554893e9e2, type: 3}
-      propertyPath: rayEndPoint
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5489425610134127744, guid: b3c81e2c1e535d04d92e62554893e9e2, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5489425610134127744, guid: b3c81e2c1e535d04d92e62554893e9e2, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8433921686568799980, guid: b3c81e2c1e535d04d92e62554893e9e2, type: 3}
       propertyPath: m_Name
       value: Little cave
@@ -11287,23 +11223,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4366764999968505719, guid: 091fa54357a568e4fa047bfa1ce04778, type: 3}
       propertyPath: sceneViewId
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 1433202058238684147, guid: 091fa54357a568e4fa047bfa1ce04778, type: 3}
-      propertyPath: rayEndPoint
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1433202058238684147, guid: 091fa54357a568e4fa047bfa1ce04778, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1433202058238684147, guid: 091fa54357a568e4fa047bfa1ce04778, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2428985608677824526, guid: 091fa54357a568e4fa047bfa1ce04778, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 8210038128073300579, guid: 091fa54357a568e4fa047bfa1ce04778, type: 3}
       propertyPath: m_RootOrder
@@ -11364,11 +11284,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2115386582060403891, guid: 02b1ff7816a6f7a428dbd454d0005516, type: 3}
       propertyPath: sceneViewId
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 2736348419600562983, guid: 02b1ff7816a6f7a428dbd454d0005516, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 2739243325886166466, guid: 02b1ff7816a6f7a428dbd454d0005516, type: 3}
       propertyPath: m_RootOrder
@@ -11418,18 +11334,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rounded wood pattern
       objectReference: {fileID: 0}
-    - target: {fileID: 6928245832053881744, guid: 02b1ff7816a6f7a428dbd454d0005516, type: 3}
-      propertyPath: rayEndPoint
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6928245832053881744, guid: 02b1ff7816a6f7a428dbd454d0005516, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6928245832053881744, guid: 02b1ff7816a6f7a428dbd454d0005516, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02b1ff7816a6f7a428dbd454d0005516, type: 3}
 --- !u!1001 &2785550877322521934
@@ -11441,7 +11345,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6721887487059431451, guid: 44d37a46dbfed884aaf294b4e7e4928e, type: 3}
       propertyPath: sceneViewId
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1221508367786027452, guid: 44d37a46dbfed884aaf294b4e7e4928e, type: 3}
       propertyPath: m_Name
@@ -11491,22 +11395,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2785550877322521936, guid: 44d37a46dbfed884aaf294b4e7e4928e, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6978058636199064993, guid: 44d37a46dbfed884aaf294b4e7e4928e, type: 3}
-      propertyPath: rayEndPoint
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6978058636199064993, guid: 44d37a46dbfed884aaf294b4e7e4928e, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6978058636199064993, guid: 44d37a46dbfed884aaf294b4e7e4928e, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44d37a46dbfed884aaf294b4e7e4928e, type: 3}
 --- !u!1001 &3345391294366902407
@@ -11516,22 +11404,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2945827802801916167, guid: fc0e65f4c3ab0974d85ef30c708074ed, type: 3}
-      propertyPath: rayEndPoint
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2945827802801916167, guid: fc0e65f4c3ab0974d85ef30c708074ed, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2945827802801916167, guid: fc0e65f4c3ab0974d85ef30c708074ed, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3345391294366902409, guid: fc0e65f4c3ab0974d85ef30c708074ed, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4584410565124656057, guid: fc0e65f4c3ab0974d85ef30c708074ed, type: 3}
       propertyPath: m_Name
       value: Snow pines
@@ -11582,7 +11454,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8191104286525733776, guid: fc0e65f4c3ab0974d85ef30c708074ed, type: 3}
       propertyPath: sceneViewId
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc0e65f4c3ab0974d85ef30c708074ed, type: 3}
@@ -11599,11 +11471,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3669427664722046157, guid: 7f2897f5bff278a4f92b85c7a5f7744f, type: 3}
       propertyPath: sceneViewId
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 3805355175170211085, guid: 7f2897f5bff278a4f92b85c7a5f7744f, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4090754982022997545, guid: 7f2897f5bff278a4f92b85c7a5f7744f, type: 3}
       propertyPath: m_RootOrder
@@ -11648,18 +11516,6 @@ PrefabInstance:
     - target: {fileID: 4090754982022997545, guid: 7f2897f5bff278a4f92b85c7a5f7744f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8143238715066734399, guid: 7f2897f5bff278a4f92b85c7a5f7744f, type: 3}
-      propertyPath: rayEndPoint
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8143238715066734399, guid: 7f2897f5bff278a4f92b85c7a5f7744f, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8143238715066734399, guid: 7f2897f5bff278a4f92b85c7a5f7744f, type: 3}
-      propertyPath: RightHandController
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f2897f5bff278a4f92b85c7a5f7744f, type: 3}
@@ -11718,25 +11574,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stonehenge
       objectReference: {fileID: 0}
-    - target: {fileID: 4270669017819329794, guid: 6c7eea881766fcd41b797e9e9558a4fd, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4409059146108586308, guid: 6c7eea881766fcd41b797e9e9558a4fd, type: 3}
       propertyPath: sceneViewId
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 5293610352712478959, guid: 6c7eea881766fcd41b797e9e9558a4fd, type: 3}
-      propertyPath: rayEndPoint
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5293610352712478959, guid: 6c7eea881766fcd41b797e9e9558a4fd, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5293610352712478959, guid: 6c7eea881766fcd41b797e9e9558a4fd, type: 3}
-      propertyPath: RightHandController
-      value: 
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c7eea881766fcd41b797e9e9558a4fd, type: 3}
@@ -11749,7 +11589,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4081660453633648229, guid: 651867647d5740c409f5a3447fd5828c, type: 3}
       propertyPath: sceneViewId
-      value: 11
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4829456514628189787, guid: 651867647d5740c409f5a3447fd5828c, type: 3}
       propertyPath: m_Name
@@ -11799,22 +11639,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4947351527796360867, guid: 651867647d5740c409f5a3447fd5828c, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5573879232331983259, guid: 651867647d5740c409f5a3447fd5828c, type: 3}
-      propertyPath: rayEndPoint
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5573879232331983259, guid: 651867647d5740c409f5a3447fd5828c, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5573879232331983259, guid: 651867647d5740c409f5a3447fd5828c, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 651867647d5740c409f5a3447fd5828c, type: 3}
 --- !u!1001 &5790521001456158487
@@ -11827,18 +11651,6 @@ PrefabInstance:
     - target: {fileID: -477842317515977743, guid: d83e890ccb33d5d4ba8623caf5689ea3, type: 3}
       propertyPath: sceneViewId
       value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 345314554667097890, guid: d83e890ccb33d5d4ba8623caf5689ea3, type: 3}
-      propertyPath: rayEndPoint
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 345314554667097890, guid: d83e890ccb33d5d4ba8623caf5689ea3, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 345314554667097890, guid: d83e890ccb33d5d4ba8623caf5689ea3, type: 3}
-      propertyPath: RightHandController
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1668336274552396566, guid: d83e890ccb33d5d4ba8623caf5689ea3, type: 3}
       propertyPath: m_RootOrder
@@ -11884,10 +11696,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5790521001456158489, guid: d83e890ccb33d5d4ba8623caf5689ea3, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8077193612031058897, guid: d83e890ccb33d5d4ba8623caf5689ea3, type: 3}
       propertyPath: m_Name
       value: Wall ruins
@@ -11904,22 +11712,6 @@ PrefabInstance:
     - target: {fileID: 3344410885545349572, guid: a9cc4c249da8f4c4b9e625b2a6448d03, type: 3}
       propertyPath: m_Name
       value: Vegetation
-      objectReference: {fileID: 0}
-    - target: {fileID: 3998551877070070426, guid: a9cc4c249da8f4c4b9e625b2a6448d03, type: 3}
-      propertyPath: rayEndPoint
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3998551877070070426, guid: a9cc4c249da8f4c4b9e625b2a6448d03, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3998551877070070426, guid: a9cc4c249da8f4c4b9e625b2a6448d03, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6715181198123094354, guid: a9cc4c249da8f4c4b9e625b2a6448d03, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7448554820652862996, guid: a9cc4c249da8f4c4b9e625b2a6448d03, type: 3}
       propertyPath: m_RootOrder
@@ -11982,18 +11774,6 @@ PrefabInstance:
       propertyPath: sceneViewId
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 278388221881694030, guid: 2d243548e4f176d48bd0972a95ea4994, type: 3}
-      propertyPath: rayEndPoint
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 278388221881694030, guid: 2d243548e4f176d48bd0972a95ea4994, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 278388221881694030, guid: 2d243548e4f176d48bd0972a95ea4994, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 529730506942778781, guid: 2d243548e4f176d48bd0972a95ea4994, type: 3}
       propertyPath: m_Name
       value: Bridge_02
@@ -12042,10 +11822,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6719662735780259405, guid: 2d243548e4f176d48bd0972a95ea4994, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d243548e4f176d48bd0972a95ea4994, type: 3}
 --- !u!1001 &7085443990244217691
@@ -12055,18 +11831,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2331898505070764126, guid: f494954e125ec2e4d96d228e2b784055, type: 3}
-      propertyPath: rayEndPoint
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2331898505070764126, guid: f494954e125ec2e4d96d228e2b784055, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2331898505070764126, guid: f494954e125ec2e4d96d228e2b784055, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2877477036607943706, guid: f494954e125ec2e4d96d228e2b784055, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -12115,10 +11879,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Random pines
       objectReference: {fileID: 0}
-    - target: {fileID: 7085443990244217693, guid: f494954e125ec2e4d96d228e2b784055, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8177801628697921699, guid: f494954e125ec2e4d96d228e2b784055, type: 3}
       propertyPath: sceneViewId
       value: 7
@@ -12132,25 +11892,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6488787111755909211, guid: e158f9ecf25a8ee4cbf3dc0b3e604a7a, type: 3}
-      propertyPath: rayEndPoint
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6488787111755909211, guid: e158f9ecf25a8ee4cbf3dc0b3e604a7a, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6488787111755909211, guid: e158f9ecf25a8ee4cbf3dc0b3e604a7a, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7415940360087028515, guid: e158f9ecf25a8ee4cbf3dc0b3e604a7a, type: 3}
       propertyPath: sceneViewId
       value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7524527424297886876, guid: e158f9ecf25a8ee4cbf3dc0b3e604a7a, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8007707750540047011, guid: e158f9ecf25a8ee4cbf3dc0b3e604a7a, type: 3}
       propertyPath: m_RootOrder
@@ -12209,38 +11953,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 381057489777208473, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
-      propertyPath: rayEndPoint
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 381057489777208473, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 381057489777208473, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1918184382042846666, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
-      propertyPath: m_UseLocal
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7761269846588442613, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
       propertyPath: sceneViewId
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 7761269846588442613, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
-      propertyPath: observableSearch
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7761269846588442613, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
-      propertyPath: ObservedComponents.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7761269846588442613, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
-      propertyPath: ObservedComponents.Array.data[3]
-      value: 
-      objectReference: {fileID: 8198271523378832452}
     - target: {fileID: 8198271522882438364, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
       propertyPath: m_Name
       value: Big crystal
@@ -12289,23 +12005,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8198271523378832453, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
---- !u!114 &8198271523378832452 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1918184382042846666, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
-  m_PrefabInstance: {fileID: 8198271523378832451}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!64 &8341875994833115656
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12725,18 +12426,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2069810237924100628, guid: ed47633b817ee894eaba4b7a2c3b3acc, type: 3}
-      propertyPath: rayEndPoint
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069810237924100628, guid: ed47633b817ee894eaba4b7a2c3b3acc, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069810237924100628, guid: ed47633b817ee894eaba4b7a2c3b3acc, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4959801747495475577, guid: ed47633b817ee894eaba4b7a2c3b3acc, type: 3}
       propertyPath: sceneViewId
       value: 4
@@ -12789,10 +12478,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8607167147015390509, guid: ed47633b817ee894eaba4b7a2c3b3acc, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed47633b817ee894eaba4b7a2c3b3acc, type: 3}
 --- !u!1001 &8680683111168012485
@@ -12805,22 +12490,6 @@ PrefabInstance:
     - target: {fileID: -2943234739906275518, guid: bd51e84c7849278498beb0d0bb3d62f3, type: 3}
       propertyPath: sceneViewId
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3212859533160297550, guid: bd51e84c7849278498beb0d0bb3d62f3, type: 3}
-      propertyPath: rayEndPoint
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3212859533160297550, guid: bd51e84c7849278498beb0d0bb3d62f3, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3212859533160297550, guid: bd51e84c7849278498beb0d0bb3d62f3, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8680683111168012487, guid: bd51e84c7849278498beb0d0bb3d62f3, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 9158129963432436554, guid: bd51e84c7849278498beb0d0bb3d62f3, type: 3}
       propertyPath: m_Name
@@ -12883,18 +12552,6 @@ PrefabInstance:
       propertyPath: sceneViewId
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 8188110713901125088, guid: d2779c218e702864baf31c580f93e617, type: 3}
-      propertyPath: rayEndPoint
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188110713901125088, guid: d2779c218e702864baf31c580f93e617, type: 3}
-      propertyPath: rayInteractor
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188110713901125088, guid: d2779c218e702864baf31c580f93e617, type: 3}
-      propertyPath: RightHandController
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8870633105452029055, guid: d2779c218e702864baf31c580f93e617, type: 3}
       propertyPath: m_Name
       value: Ice
@@ -12942,10 +12599,6 @@ PrefabInstance:
     - target: {fileID: 8870633105452266825, guid: d2779c218e702864baf31c580f93e617, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8870633107215112502, guid: d2779c218e702864baf31c580f93e617, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2779c218e702864baf31c580f93e617, type: 3}
