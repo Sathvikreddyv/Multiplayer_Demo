@@ -14,7 +14,7 @@ public class HIghlightManager : MonoBehaviourPun
     private bool CheckInstantiate = true;
 
     //VR ray
-    public XRRayInteractor rayInteractor;
+    public GameObject rayInteractor;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +25,13 @@ public class HIghlightManager : MonoBehaviourPun
     // Update is called once per frame
     void Update()
     {
+        XRRayInteractor[] rayInteractors = GameObject.FindObjectsOfType<XRRayInteractor>();
+        foreach (XRRayInteractor x in rayInteractors)
+        {
+            if (x.transform.parent.name.Contains("RightHand"))
+                rayInteractor = GameObject.Find("Ray Interactor").gameObject;
+        }
+
         Ray ray;
         if(CheckInstantiate)
         {
