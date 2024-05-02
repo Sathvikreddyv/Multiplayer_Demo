@@ -21,52 +21,30 @@ public class ObjectManipulationXR : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rayEndPoint.transform.SetParent(rayInteractor.transform);
+        //rayEndPoint.transform.SetParent(rayInteractor.transform);
     }
 
     // Update is called once per frame
     void Update()
     {
         if (triggerButton.action.triggered && triggerButton.action != null)
-        {
-            if (photonView.IsMine || photonView.Owner == null)
+        {   
+            Ray ray = new Ray(rayInteractor.transform.position, rayInteractor.transform.forward);
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
             {
-                GrabObject();
-            }
-            else
-            {
-                photonView.RequestOwnership();
-            }
-        }
-        else
-        {
-            ReleaseObject();
-        }
-    }
-
-    public void GrabObject()
-    {
-        Ray ray = new Ray(rayInteractor.transform.position, rayInteractor.transform.forward);
-        RaycastHit hit;
-        if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
-        {
-            rayEndPoint.transform.position = hit.point;
-
-            if (!ObjectSelected)
-            {
-                hit.collider.gameObject.transform.SetParent(rayEndPoint.transform);
-
-                ObjectSelected = true;
+                if (photonView.IsMine || photonView.Owner == null)
+                {
+                    return;
+                }
+                else
+                {
+                    photonView.RequestOwnership();
+                }
             }
         }
     }
 
-    public void ReleaseObject()
-    {
-        ObjectSelected= false;
-        transform.SetParent(null);
-        Debug.Log(transform.parent);
-    }
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
