@@ -82,7 +82,6 @@ MonoBehaviour:
     m_Bits: 524288
   RightTriggerButtonAction: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   rayInteractor: {fileID: 0}
-  RightControllerInteractor: {fileID: 0}
 --- !u!114 &8787503159810687148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,7 +234,7 @@ MonoBehaviour:
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
   m_TightenPosition: 0.5
-  m_TrackRotation: 1
+  m_TrackRotation: 0
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 5
   m_TightenRotation: 0.5

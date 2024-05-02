@@ -12093,6 +12093,7 @@ GameObject:
   - component: {fileID: 3284005821859210312}
   - component: {fileID: 3284005821859210317}
   - component: {fileID: 5682881544380838266}
+  - component: {fileID: 3343994325362430380}
   m_Layer: 2
   m_Name: XR Origin
   m_TagString: Untagged
@@ -12391,6 +12392,41 @@ MonoBehaviour:
     m_Bits: 67108800
   PrimaryButtonAction: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   rayInteractor: {fileID: 6507936977743513671}
+--- !u!114 &3343994325362430380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7798949829179270911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b64650fece8124e95428bef876dbd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToIgnore:
+  - {fileID: 4947351528900203338, guid: 651867647d5740c409f5a3447fd5828c, type: 3}
+  - {fileID: 8947746998843184090, guid: 1ef5137a3d2e82640908ad9003964d9f, type: 3}
+  - {fileID: 2428985607991819177, guid: 091fa54357a568e4fa047bfa1ce04778, type: 3}
+  - {fileID: 665039318888822097, guid: cf8c7309dde5f204780a26532e946949, type: 3}
+  - {fileID: 1521225315807455689, guid: 21591ec03b6edfe469053792d9bf0f78, type: 3}
+  - {fileID: 8680683112197640373, guid: bd51e84c7849278498beb0d0bb3d62f3, type: 3}
+  - {fileID: 8870633105449941705, guid: d2779c218e702864baf31c580f93e617, type: 3}
+  - {fileID: 1973190304548177599, guid: b3c81e2c1e535d04d92e62554893e9e2, type: 3}
+  - {fileID: 8607167145638077850, guid: ed47633b817ee894eaba4b7a2c3b3acc, type: 3}
+  - {fileID: 7085443990509497174, guid: f494954e125ec2e4d96d228e2b784055, type: 3}
+  - {fileID: 7524527423037433586, guid: e158f9ecf25a8ee4cbf3dc0b3e604a7a, type: 3}
+  - {fileID: 2736348419825857581, guid: 02b1ff7816a6f7a428dbd454d0005516, type: 3}
+  - {fileID: 3345391293004717517, guid: fc0e65f4c3ab0974d85ef30c708074ed, type: 3}
+  - {fileID: 4270669017261678479, guid: 6c7eea881766fcd41b797e9e9558a4fd, type: 3}
+  - {fileID: 2785550877209303567, guid: 44d37a46dbfed884aaf294b4e7e4928e, type: 3}
+  - {fileID: 6715181199291294335, guid: a9cc4c249da8f4c4b9e625b2a6448d03, type: 3}
+  - {fileID: 5790521000543830033, guid: d83e890ccb33d5d4ba8623caf5689ea3, type: 3}
+  - {fileID: 3805355174655258147, guid: 7f2897f5bff278a4f92b85c7a5f7744f, type: 3}
+  - {fileID: 8198271522882438370, guid: 2d8f39e8a2ebc284eb0c98cc1e902a29, type: 3}
+  - {fileID: 8513609469260118915, guid: 2d243548e4f176d48bd0972a95ea4994, type: 3}
+  characterController: {fileID: 3284005821859210312}
+  Player: {fileID: 8247129084897115350}
 --- !u!1 &7800771249252885302
 GameObject:
   m_ObjectHideFlags: 0
@@ -12405,6 +12441,7 @@ GameObject:
   - component: {fileID: 8247129084897115350}
   - component: {fileID: 7168061876346043182}
   - component: {fileID: 1829700297495145940}
+  - component: {fileID: 5832482782565019138}
   m_Layer: 0
   m_Name: XRPLayer
   m_TagString: Untagged
@@ -12530,6 +12567,19 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 1
+--- !u!114 &5832482782565019138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7800771249252885302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e819f329c0db6c54bb0bfc037b146392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  XRorigin: {fileID: 7798949829179270908}
 --- !u!1 &8030966031586383969
 GameObject:
   m_ObjectHideFlags: 0

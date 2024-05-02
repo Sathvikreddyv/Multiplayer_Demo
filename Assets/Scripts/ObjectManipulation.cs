@@ -79,6 +79,10 @@ public class ObjectManipulation : MonoBehaviourPunCallbacks, IPunObservable
                 }
             }
         }
+        else
+        {
+            transform.position = new Vector3(transform.position.x, yPosition, transform.position.z);
+        }
 
         if(isPressed)
         {
