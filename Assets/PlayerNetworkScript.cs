@@ -20,7 +20,7 @@ public class PlayerNetworkScript : MonoBehaviourPunCallbacks
             localXRRigObject.SetActive(true);
             localInteractionManager.SetActive(true);
             localEventSystem.SetActive(true);
-            inputActionManager.SetActive(true);
+            //inputActionManager.SetActive(true);
 
         }
         else
@@ -28,7 +28,7 @@ public class PlayerNetworkScript : MonoBehaviourPunCallbacks
             localXRRigObject.SetActive(false);
             localInteractionManager.SetActive(false);
             localEventSystem.SetActive(false);
-            inputActionManager.SetActive(false);
+            //inputActionManager.SetActive(false);
         }
 
     }
