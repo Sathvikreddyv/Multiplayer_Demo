@@ -2972,7 +2972,7 @@ MonoBehaviour:
   objectPlacement: {fileID: 1422662656}
   layerMask:
     serializedVersion: 2
-    m_Bits: 67108800
+    m_Bits: 201326528
 --- !u!4 &403213427 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 472198, guid: 51da91434681d0d4cbd95be823e2b0e9, type: 3}
@@ -3010,7 +3010,7 @@ MonoBehaviour:
   HighlightAsset: {fileID: 9158209765172678225}
   layerMask:
     serializedVersion: 2
-    m_Bits: 67108800
+    m_Bits: 201326528
   rayInteractor: {fileID: 0}
 --- !u!4 &407516732
 Transform:
