@@ -12246,10 +12246,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -5683727132799187970, guid: 2d243548e4f176d48bd0972a95ea4994, type: 3}
-      propertyPath: sceneViewId
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 529730506942778781, guid: 2d243548e4f176d48bd0972a95ea4994, type: 3}
       propertyPath: m_Name
       value: Bridge_02
@@ -12260,11 +12256,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 529730506942878141, guid: 2d243548e4f176d48bd0972a95ea4994, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -87.877
+      value: -87.846
       objectReference: {fileID: 0}
     - target: {fileID: 529730506942878141, guid: 2d243548e4f176d48bd0972a95ea4994, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.53
+      value: 16.126
       objectReference: {fileID: 0}
     - target: {fileID: 529730506942878141, guid: 2d243548e4f176d48bd0972a95ea4994, type: 3}
       propertyPath: m_LocalPosition.z
