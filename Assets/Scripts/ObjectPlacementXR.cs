@@ -57,6 +57,7 @@ public class ObjectPlacementXR : MonoBehaviour
         button[17].onClick.AddListener(delegate { AssignAsset(button[17].tag, button[17].GetComponent<assetCounter>().Counter); });
         button[18].onClick.AddListener(delegate { AssignAsset(button[18].tag, button[18].GetComponent<assetCounter>().Counter); });
         button[19].onClick.AddListener(delegate { AssignAsset(button[19].tag, button[19].GetComponent<assetCounter>().Counter); });
+        button[19].onClick.AddListener(delegate { AssignAsset(button[20].tag, button[20].GetComponent<assetCounter>().Counter); });
     }
 
     #endregion
