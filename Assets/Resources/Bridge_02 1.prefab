@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 6719662735780259405}
   - component: {fileID: 6719662735780259402}
   - component: {fileID: 278388221881694030}
+  - component: {fileID: 1952084242082229183}
   m_Layer: 6
   m_Name: Bridge_02 1
   m_TagString: Bridge
@@ -337,3 +338,16 @@ MonoBehaviour:
     m_Bits: 64
   rayEndPoint: {fileID: 0}
   photonView: {fileID: -5683727132799187970}
+--- !u!65 &1952084242082229183
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529730506942778781}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.7090707, y: 4.956837, z: 3.378195}
+  m_Center: {x: -0.064153306, y: -1.9361508, z: -0.034979995}
