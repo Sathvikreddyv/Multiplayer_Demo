@@ -42,7 +42,7 @@ public class Remover : MonoBehaviourPun
         Debug.Log(selectedAsset.name);
         if (selectedAsset.tag != "ground")
         {
-            for(int i = 0; i<20; i++)
+            for(int i = 0; i<21; i++)
             {
                 if(selectedAsset.tag == objectPlacement.button[i].tag)
                 {
