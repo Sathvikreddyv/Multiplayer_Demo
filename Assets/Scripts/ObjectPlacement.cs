@@ -49,7 +49,7 @@ public class ObjectPlacement : MonoBehaviourPun
         button[17].onClick.AddListener(delegate { AssignAsset(button[17].tag, button[17].GetComponent<assetCounter>().Counter); });
         button[18].onClick.AddListener(delegate { AssignAsset(button[18].tag, button[18].GetComponent<assetCounter>().Counter); });
         button[19].onClick.AddListener(delegate { AssignAsset(button[19].tag, button[19].GetComponent<assetCounter>().Counter); });
-        button[19].onClick.AddListener(delegate { AssignAsset(button[20].tag, button[20].GetComponent<assetCounter>().Counter); });
+        button[20].onClick.AddListener(delegate { AssignAsset(button[20].tag, button[20].GetComponent<assetCounter>().Counter); });
     }
 
     #endregion
@@ -93,7 +93,7 @@ public class ObjectPlacement : MonoBehaviourPun
                 //+assetPrefab.transform.position.y
                 postion = new Vector3(hit.point.x, hit.point.y, hit.point.z);
 
-                for (int i = 0; i < 20; i++)
+                for (int i = 0; i < 21; i++)
                 {
                     if (assetPrefab.tag == button[i].tag)
                     {

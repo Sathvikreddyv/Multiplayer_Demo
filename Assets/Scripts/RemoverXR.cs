@@ -44,7 +44,7 @@ public class RemoverXR : MonoBehaviourPunCallbacks, IPunObservable
         if (selectedAsset.tag != "ground")
         {
             Debug.Log(selectedAsset.tag);
-            for (int i = 0; i < 20; i++)
+            for (int i = 0; i < 21; i++)
             {
                 if (selectedAsset.tag == objectPlacement.button[i].tag)
                 {
