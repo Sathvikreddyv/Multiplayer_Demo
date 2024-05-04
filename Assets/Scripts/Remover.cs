@@ -46,13 +46,12 @@ public class Remover : MonoBehaviourPun
             {
                 if(selectedAsset.tag == objectPlacement.button[i].tag)
                 {
-                    if (photonView.IsMine)
-                    {
+                   
                         PhotonNetwork.Destroy(selectedAsset);
                         Debug.Log("removed" + selectedAsset.name);
                         objectPlacement.button[i].GetComponent<assetCounter>().Counter++;
                         objectPlacement.button[i].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = objectPlacement.button[i].GetComponent<assetCounter>().Counter.ToString();
-                    }
+                    
                 }
             }
         }
