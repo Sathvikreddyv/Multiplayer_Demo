@@ -12731,10 +12731,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -5683727132799187970, guid: 2d243548e4f176d48bd0972a95ea4994, type: 3}
-      propertyPath: sceneViewId
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 529730506942778781, guid: 2d243548e4f176d48bd0972a95ea4994, type: 3}
       propertyPath: m_Name
       value: Bridge_02
