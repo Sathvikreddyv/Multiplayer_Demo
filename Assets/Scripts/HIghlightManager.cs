@@ -28,7 +28,7 @@ public class HIghlightManager : MonoBehaviourPun
         XRRayInteractor[] rayInteractors = GameObject.FindObjectsOfType<XRRayInteractor>();
         foreach (XRRayInteractor x in rayInteractors)
         {
-            if (x.transform.parent.name.Contains("RightHand"))
+            if (x.transform.parent.name.Contains("RightHand (Teleport Locomotion)"))
                 rayInteractor = GameObject.Find("Ray Interactor").gameObject;
         }
 
